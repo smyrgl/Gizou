@@ -49,47 +49,62 @@
 
 - (void)testCharacters
 {
-    
+    NSString *characters = [GZWords characters:5];
+    XCTAssert(characters, @"There must be characters");
+    XCTAssert(characters.length == 5, @"The length must be 5");
 }
 
 - (void)testNumbers
 {
-    
+    NSString *numbers = [GZWords numbers:5];
+    XCTAssert(numbers, @"There must be numbers");
+    XCTAssert(numbers.length == 5, @"The length must be 5");
 }
 
 - (void)testSentence
 {
-    
+    NSString *sentence = [GZWords sentence];
+    XCTAssert(sentence, @"There must be a sentence");
+    XCTAssert(sentence.length > 0, @"The length must not be zero");
+    int count = (int)sentence.length;
+    sentence = [sentence stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
+    XCTAssert(sentence.length == count, @"There should be no whitespace");
 }
 
 - (void)testSentences
 {
-    
+    NSString *sentence = [GZWords sentence];
+    XCTAssert(sentence, @"There must be a sentence");
 }
 
 - (void)testSentenceWithSetNumberOfWords
 {
-    
+    NSString *sentence = [GZWords sentenceWithNumberOfWords:6];
+    XCTAssert(sentence, @"There must be a sentence");
 }
 
 - (void)testParagraph
 {
-    
+    NSString *paragraph = [GZWords paragraph];
+    XCTAssert(paragraph, @"There must be a paragraph");
 }
 
 - (void)testParagraphs
 {
-    
+    NSString *paragraphs = [GZWords paragraphs];
+    XCTAssert(paragraphs, @"There must be paragraphs");
 }
 
 - (void)testParagraphWithNumberOfSentences
 {
-    
+    NSString *paragraphs = [GZWords paragraphWithNumberOfSentences:5];
+    XCTAssert(paragraphs, @"There must be paragraphs");
 }
 
 - (void)testNumberOfParagraphs
 {
-    
+    NSString *paragraphs = [GZWords paragraphs:5];
+    XCTAssert(paragraphs, @"There must be paragraphs");
 }
 
 @end
