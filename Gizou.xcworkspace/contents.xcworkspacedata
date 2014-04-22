@@ -20,6 +20,12 @@
          <FileRef
             location = "group:Classes/NSString+GZStrings.m">
          </FileRef>
+         <FileRef
+            location = "group:GZLocations+CoreLocationExtensions.h">
+         </FileRef>
+         <FileRef
+            location = "group:GZLocations+CoreLocationExtensions.m">
+         </FileRef>
       </Group>
       <Group
          location = "container:"

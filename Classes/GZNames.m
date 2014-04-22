@@ -15,7 +15,15 @@
 
 + (NSString *)name
 {
-    return [NSString stringWithFormat:@"%@ %@", [self firstName], [self lastName]];
+    int randomSeed = arc4random_uniform(6);
+    
+    if (randomSeed == 0) {
+        return [NSString stringWithFormat:@"%@ %@ %@", [self prefix], [self firstName], [self lastName]];
+    } else if (randomSeed == 1) {
+        return [NSString stringWithFormat:@"%@ %@ %@", [self firstName], [self lastName], [self suffix]];
+    } else {
+        return [NSString stringWithFormat:@"%@ %@", [self firstName], [self lastName]];
+    }
 }
 
 + (NSString *)firstName

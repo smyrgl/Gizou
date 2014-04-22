@@ -1,5 +1,5 @@
 //
-//  GZSequenceTests.m
+//  GZWordsTests.m
 //  GizouTests
 //
 //  Created by John Tumminaro on 4/22/14.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface GZSequenceTests : XCTestCase
+@interface GZWordsTests : XCTestCase
 
 @end
 
-@implementation GZSequenceTests
+@implementation GZWordsTests
 
 - (void)setUp
 {
@@ -26,9 +26,9 @@
     [super tearDown];
 }
 
-- (void)testBasicSequence
+- (void)testExample
 {
-    
+    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
 }
 
 @end

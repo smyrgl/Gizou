@@ -10,4 +10,21 @@
 
 @interface GZLocations : NSObject
 
++ (NSString *)fullAddress;
++ (NSString *)streetAddress;
++ (NSString *)streetName;
++ (NSString *)city;
++ (NSString *)buildingNumber;
++ (NSString *)zipCode;
++ (NSString *)streetSuffix;
++ (NSString *)citySuffix;
++ (NSString *)cityPrefix;
++ (NSString *)stateCode;
++ (NSString *)state;
++ (NSString *)country;
++ (NSString *)latitudeString;
++ (NSString *)longitudeString;
++ (double)latitude;
++ (double)longitude;
+
 @end

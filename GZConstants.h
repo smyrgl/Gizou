@@ -16,4 +16,15 @@ extern NSString * const GZDataNameJobTitleKey;
 extern NSString * const GZDataNameLevelKey;
 extern NSString * const GZDataNameDescriptorKey;
 
-extern NSString * const GZDataCountryKey;
+extern NSString * const GZDataAddressCityPrefixKey;
+extern NSString * const GZDataAddressCitySuffixKey;
+extern NSString * const GZDataAddressCountryKey;
+extern NSString * const GZDataAddressStreetSuffixKey;
+extern NSString * const GZDataAddressStateKey;
+extern NSString * const GZDataAddressStateCodeKey;
+extern NSString * const GZDataAddressTimeZoneKey;
+
+extern NSString * const GZDataInternetDomainSuffixKey;
+
+extern NSString * const GZDataWordsKey;
+

@@ -10,4 +10,16 @@
 
 @interface GZWords : NSObject
 
++ (NSString*)word;
++ (NSString*)words:(NSInteger)numberOfWords;
++ (NSString*)characters:(NSInteger)numberOfCharacters;
++ (NSString*)numbers:(NSInteger)numberOfNumbers;
++ (NSString*)sentence;
++ (NSString*)sentenceWithNumberOfWords:(NSInteger)numberOfWords;
++ (NSString*)sentences:(NSInteger)numberOfSentences;
++ (NSString*)paragraph;
++ (NSString*)paragraphWithNumberOfSentences:(NSInteger)numberOfSentences;
++ (NSString*)paragraphs;
++ (NSString*)paragraphs:(NSInteger)numberOfParagraphs;
+
 @end

@@ -1,4 +1,5 @@
 #import <Foundation/Foundation.h>
+#import <Availability.h>
 
 #import "NSString+GZStrings.h"
 
@@ -18,3 +19,6 @@
 #import "GZInternet.h"
 #import "GZPhoneNumbers.h"
 
+#ifdef _CORELOCATIONDEFINES_H
+#import "GZLocations+CoreLocationExtensions.h"
+#endif

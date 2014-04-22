@@ -7,6 +7,9 @@
 //
 
 #import "GZPhoneNumbers.h"
+#import "GZDataManager+GZPrivateDataRequests.h"
+#import "GZConstants.h"
+#import "GZUtilityFunctions.h"
 
 @implementation GZPhoneNumbers
 

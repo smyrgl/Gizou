@@ -19,4 +19,9 @@ Pod::Spec.new do |s|
   s.osx.exclude_files = 'Classes/ios'
   s.public_header_files = 'Classes/*.h'
   s.frameworks = 'Foundation'
+
+  s.subspec 'Location' do |ss|
+    ss.source_files = 'Classes/GZLocations+CoreLocationExtensions.{h,m}'
+    ss.frameworks = 'CoreLocation'
+  end
 end

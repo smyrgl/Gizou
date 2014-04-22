@@ -33,6 +33,17 @@
 		52013C101906E10000193836 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 52013C0D1906E10000193836 /* data.json */; };
 		52013C131906E23D00193836 /* GZSequenceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52013C121906E23D00193836 /* GZSequenceTests.m */; };
 		52013C141906E23D00193836 /* GZSequenceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52013C121906E23D00193836 /* GZSequenceTests.m */; };
+		52013C1B1906E70800193836 /* GZLocations+CoreLocationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 52013C1A1906E70800193836 /* GZLocations+CoreLocationExtensions.m */; };
+		52013C1C1906E70800193836 /* GZLocations+CoreLocationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 52013C1A1906E70800193836 /* GZLocations+CoreLocationExtensions.m */; };
+		52013C1E1906E72C00193836 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52013C1D1906E72C00193836 /* CoreLocation.framework */; };
+		52013C201906EA5100193836 /* GZLocationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52013C1F1906EA5100193836 /* GZLocationsTests.m */; };
+		52013C211906EA5100193836 /* GZLocationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52013C1F1906EA5100193836 /* GZLocationsTests.m */; };
+		52013C231906EA6100193836 /* GZInternetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52013C221906EA6100193836 /* GZInternetTests.m */; };
+		52013C241906EA6100193836 /* GZInternetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52013C221906EA6100193836 /* GZInternetTests.m */; };
+		52013C261906EA6E00193836 /* GZWordsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52013C251906EA6E00193836 /* GZWordsTests.m */; };
+		52013C271906EA6E00193836 /* GZWordsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52013C251906EA6E00193836 /* GZWordsTests.m */; };
+		52013C291906EA7B00193836 /* GZPhoneNumbersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52013C281906EA7B00193836 /* GZPhoneNumbersTests.m */; };
+		52013C2A1906EA7B00193836 /* GZPhoneNumbersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52013C281906EA7B00193836 /* GZPhoneNumbersTests.m */; };
 		5229CA981905EB31005F6482 /* GZUtilityFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5229CA971905EB31005F6482 /* GZUtilityFunctions.m */; };
 		524E7150190105F9009D0D98 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 524E714F190105F9009D0D98 /* XCTest.framework */; };
 		524E715A190105F9009D0D98 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 524E7158190105F9009D0D98 /* InfoPlist.strings */; };
@@ -68,6 +79,13 @@
 		52013C091906DF5600193836 /* GZSetupTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZSetupTests.m; sourceTree = "<group>"; };
 		52013C0D1906E10000193836 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		52013C121906E23D00193836 /* GZSequenceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZSequenceTests.m; sourceTree = "<group>"; };
+		52013C191906E70800193836 /* GZLocations+CoreLocationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GZLocations+CoreLocationExtensions.h"; sourceTree = "<group>"; };
+		52013C1A1906E70800193836 /* GZLocations+CoreLocationExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GZLocations+CoreLocationExtensions.m"; sourceTree = "<group>"; };
+		52013C1D1906E72C00193836 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		52013C1F1906EA5100193836 /* GZLocationsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZLocationsTests.m; sourceTree = "<group>"; };
+		52013C221906EA6100193836 /* GZInternetTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZInternetTests.m; sourceTree = "<group>"; };
+		52013C251906EA6E00193836 /* GZWordsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZWordsTests.m; sourceTree = "<group>"; };
+		52013C281906EA7B00193836 /* GZPhoneNumbersTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZPhoneNumbersTests.m; sourceTree = "<group>"; };
 		5229CA961905EB31005F6482 /* GZUtilityFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GZUtilityFunctions.h; path = ../Classes/Private/GZUtilityFunctions.h; sourceTree = "<group>"; };
 		5229CA971905EB31005F6482 /* GZUtilityFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GZUtilityFunctions.m; path = ../Classes/Private/GZUtilityFunctions.m; sourceTree = "<group>"; };
 		524E714C190105F9009D0D98 /* GizouTestsiOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GizouTestsiOS.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52013C1E1906E72C00193836 /* CoreLocation.framework in Frameworks */,
 				524E719D1901C238009D0D98 /* Foundation.framework in Frameworks */,
 				524E719B1901C232009D0D98 /* UIKit.framework in Frameworks */,
 				524E7150190105F9009D0D98 /* XCTest.framework in Frameworks */,
@@ -114,6 +133,10 @@
 				52013C061906DF4300193836 /* GZNamesTests.m */,
 				52013C091906DF5600193836 /* GZSetupTests.m */,
 				52013C121906E23D00193836 /* GZSequenceTests.m */,
+				52013C1F1906EA5100193836 /* GZLocationsTests.m */,
+				52013C221906EA6100193836 /* GZInternetTests.m */,
+				52013C251906EA6E00193836 /* GZWordsTests.m */,
+				52013C281906EA7B00193836 /* GZPhoneNumbersTests.m */,
 			);
 			name = Tests;
 			sourceTree = "<group>";
@@ -164,6 +187,7 @@
 		524E714E190105F9009D0D98 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				52013C1D1906E72C00193836 /* CoreLocation.framework */,
 				524E719C1901C238009D0D98 /* Foundation.framework */,
 				524E719A1901C232009D0D98 /* UIKit.framework */,
 				524E714F190105F9009D0D98 /* XCTest.framework */,
@@ -238,6 +262,8 @@
 			children = (
 				52013BE11906CF2700193836 /* NSString+GZStrings.h */,
 				52013BE21906CF2700193836 /* NSString+GZStrings.m */,
+				52013C191906E70800193836 /* GZLocations+CoreLocationExtensions.h */,
+				52013C1A1906E70800193836 /* GZLocations+CoreLocationExtensions.m */,
 			);
 			name = Categories;
 			path = ..;
@@ -352,16 +378,21 @@
 			files = (
 				52013BE71906CF3700193836 /* UIImage+GZImages.m in Sources */,
 				52013C131906E23D00193836 /* GZSequenceTests.m in Sources */,
+				52013C1B1906E70800193836 /* GZLocations+CoreLocationExtensions.m in Sources */,
+				52013C231906EA6100193836 /* GZInternetTests.m in Sources */,
 				52013BFB1906D74F00193836 /* GZNames.m in Sources */,
 				52013BEF1906D40200193836 /* GZDataManager+GZPrivateDataRequests.m in Sources */,
 				5229CA981905EB31005F6482 /* GZUtilityFunctions.m in Sources */,
 				524E71961901C20E009D0D98 /* GZDataManager.m in Sources */,
+				52013C261906EA6E00193836 /* GZWordsTests.m in Sources */,
 				52013C031906D74F00193836 /* GZPhoneNumbers.m in Sources */,
+				52013C291906EA7B00193836 /* GZPhoneNumbersTests.m in Sources */,
 				52013BEB1906D2EE00193836 /* GZConstants.m in Sources */,
 				52013C011906D74F00193836 /* GZWords.m in Sources */,
 				52013BFF1906D74F00193836 /* GZInternet.m in Sources */,
 				52013BFD1906D74F00193836 /* GZLocations.m in Sources */,
 				52013BE31906CF2700193836 /* NSString+GZStrings.m in Sources */,
+				52013C201906EA5100193836 /* GZLocationsTests.m in Sources */,
 				52013C0A1906DF5600193836 /* GZSetupTests.m in Sources */,
 				52013C071906DF4300193836 /* GZNamesTests.m in Sources */,
 			);
@@ -371,6 +402,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52013C271906EA6E00193836 /* GZWordsTests.m in Sources */,
 				52013BE41906CF2700193836 /* NSString+GZStrings.m in Sources */,
 				52013C0B1906DF5600193836 /* GZSetupTests.m in Sources */,
 				52013C001906D74F00193836 /* GZInternet.m in Sources */,
@@ -378,11 +410,15 @@
 				52013C081906DF4300193836 /* GZNamesTests.m in Sources */,
 				52013BFE1906D74F00193836 /* GZLocations.m in Sources */,
 				52013BEC1906D2EE00193836 /* GZConstants.m in Sources */,
+				52013C1C1906E70800193836 /* GZLocations+CoreLocationExtensions.m in Sources */,
 				52013C0C1906DFFE00193836 /* GZUtilityFunctions.m in Sources */,
+				52013C241906EA6100193836 /* GZInternetTests.m in Sources */,
 				52013C041906D74F00193836 /* GZPhoneNumbers.m in Sources */,
 				524E71971901C20E009D0D98 /* GZDataManager.m in Sources */,
 				52013BFC1906D74F00193836 /* GZNames.m in Sources */,
+				52013C2A1906EA7B00193836 /* GZPhoneNumbersTests.m in Sources */,
 				52013C021906D74F00193836 /* GZWords.m in Sources */,
+				52013C211906EA5100193836 /* GZLocationsTests.m in Sources */,
 				52013C141906E23D00193836 /* GZSequenceTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
