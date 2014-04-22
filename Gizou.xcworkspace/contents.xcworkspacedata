@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:Classes"
+      name = "Classes">
+      <Group
+         location = "group:../Assets"
+         name = "Assets">
+      </Group>
+      <Group
+         location = "container:"
+         name = "Categories">
+         <FileRef
+            location = "group:Classes/NSString+GZFakeStrings.h">
+         </FileRef>
+         <FileRef
+            location = "group:Classes/NSString+GZFakeStrings.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "container:"
+         name = "Private">
+         <FileRef
+            location = "group:Classes/Private/GZUtilityFunctions.h">
+         </FileRef>
+         <FileRef
+            location = "group:Classes/Private/GZUtilityFunctions.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "container:"
+         name = "ios">
+         <FileRef
+            location = "group:Classes/ios/UIImage+GZFakeImages.h">
+         </FileRef>
+         <FileRef
+            location = "group:Classes/ios/UIImage+GZFakeImages.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "container:"
+         name = "osx">
+      </Group>
+      <FileRef
+         location = "group:Gizou.h">
+      </FileRef>
+      <FileRef
+         location = "group:GZFaker.h">
+      </FileRef>
+      <FileRef
+         location = "group:GZFaker.m">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:GizouTests/GizouTests.xcodeproj">
+   </FileRef>
+</Workspace>

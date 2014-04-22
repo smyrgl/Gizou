@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5229CA901905EB03005F6482 /* NSString+GZFakeStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = 5229CA8F1905EB03005F6482 /* NSString+GZFakeStrings.m */; };
+		5229CA911905EB03005F6482 /* NSString+GZFakeStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = 5229CA8F1905EB03005F6482 /* NSString+GZFakeStrings.m */; };
+		5229CA941905EB1A005F6482 /* UIImage+GZFakeImages.m in Sources */ = {isa = PBXBuildFile; fileRef = 5229CA931905EB1A005F6482 /* UIImage+GZFakeImages.m */; };
+		5229CA981905EB31005F6482 /* GZUtilityFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5229CA971905EB31005F6482 /* GZUtilityFunctions.m */; };
+		524E7150190105F9009D0D98 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 524E714F190105F9009D0D98 /* XCTest.framework */; };
+		524E715A190105F9009D0D98 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 524E7158190105F9009D0D98 /* InfoPlist.strings */; };
+		524E715C190105F9009D0D98 /* GizouTestsiOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 524E715B190105F9009D0D98 /* GizouTestsiOS.m */; };
+		524E717A1901062D009D0D98 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 524E714F190105F9009D0D98 /* XCTest.framework */; };
+		524E71801901062D009D0D98 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 524E717E1901062D009D0D98 /* InfoPlist.strings */; };
+		524E71821901062D009D0D98 /* GizouTestsOSX.m in Sources */ = {isa = PBXBuildFile; fileRef = 524E71811901062D009D0D98 /* GizouTestsOSX.m */; };
+		524E71961901C20E009D0D98 /* GZFaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 524E718D1901C20E009D0D98 /* GZFaker.m */; };
+		524E71971901C20E009D0D98 /* GZFaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 524E718D1901C20E009D0D98 /* GZFaker.m */; };
+		524E719B1901C232009D0D98 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 524E719A1901C232009D0D98 /* UIKit.framework */; };
+		524E719D1901C238009D0D98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 524E719C1901C238009D0D98 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5229CA8E1905EB03005F6482 /* NSString+GZFakeStrings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+GZFakeStrings.h"; path = "Classes/NSString+GZFakeStrings.h"; sourceTree = "<group>"; };
+		5229CA8F1905EB03005F6482 /* NSString+GZFakeStrings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+GZFakeStrings.m"; path = "Classes/NSString+GZFakeStrings.m"; sourceTree = "<group>"; };
+		5229CA921905EB1A005F6482 /* UIImage+GZFakeImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GZFakeImages.h"; sourceTree = "<group>"; };
+		5229CA931905EB1A005F6482 /* UIImage+GZFakeImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GZFakeImages.m"; sourceTree = "<group>"; };
+		5229CA961905EB31005F6482 /* GZUtilityFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GZUtilityFunctions.h; path = ../Classes/Private/GZUtilityFunctions.h; sourceTree = "<group>"; };
+		5229CA971905EB31005F6482 /* GZUtilityFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GZUtilityFunctions.m; path = ../Classes/Private/GZUtilityFunctions.m; sourceTree = "<group>"; };
+		524E714C190105F9009D0D98 /* GizouTestsiOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GizouTestsiOS.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		524E714F190105F9009D0D98 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		524E7157190105F9009D0D98 /* GizouTestsiOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GizouTestsiOS-Info.plist"; sourceTree = "<group>"; };
+		524E7159190105F9009D0D98 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		524E715B190105F9009D0D98 /* GizouTestsiOS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GizouTestsiOS.m; sourceTree = "<group>"; };
+		524E715D190105F9009D0D98 /* GizouTestsiOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GizouTestsiOS-Prefix.pch"; sourceTree = "<group>"; };
+		524E71791901062D009D0D98 /* GizouTestsOSX.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GizouTestsOSX.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		524E717D1901062D009D0D98 /* GizouTestsOSX-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GizouTestsOSX-Info.plist"; sourceTree = "<group>"; };
+		524E717F1901062D009D0D98 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		524E71811901062D009D0D98 /* GizouTestsOSX.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GizouTestsOSX.m; sourceTree = "<group>"; };
+		524E71831901062D009D0D98 /* GizouTestsOSX-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GizouTestsOSX-Prefix.pch"; sourceTree = "<group>"; };
+		524E718B1901C20E009D0D98 /* Gizou.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Gizou.h; path = ../Classes/Gizou.h; sourceTree = "<group>"; };
+		524E718C1901C20E009D0D98 /* GZFaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GZFaker.h; path = ../Classes/GZFaker.h; sourceTree = "<group>"; };
+		524E718D1901C20E009D0D98 /* GZFaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GZFaker.m; path = ../Classes/GZFaker.m; sourceTree = "<group>"; };
+		524E719A1901C232009D0D98 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		524E719C1901C238009D0D98 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		524E7149190105F9009D0D98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524E719D1901C238009D0D98 /* Foundation.framework in Frameworks */,
+				524E719B1901C232009D0D98 /* UIKit.framework in Frameworks */,
+				524E7150190105F9009D0D98 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524E71761901062D009D0D98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524E717A1901062D009D0D98 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5229CA951905EB28005F6482 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				5229CA961905EB31005F6482 /* GZUtilityFunctions.h */,
+				5229CA971905EB31005F6482 /* GZUtilityFunctions.m */,
+			);
+			name = Private;
+			sourceTree = "<group>";
+		};
+		524E7141190105D3009D0D98 = {
+			isa = PBXGroup;
+			children = (
+				524E7155190105F9009D0D98 /* GizouTestsiOS */,
+				524E717B1901062D009D0D98 /* GizouTestsOSX */,
+				524E714E190105F9009D0D98 /* Frameworks */,
+				524E71871901C202009D0D98 /* Vendor */,
+				524E714D190105F9009D0D98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		524E714D190105F9009D0D98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				524E714C190105F9009D0D98 /* GizouTestsiOS.xctest */,
+				524E71791901062D009D0D98 /* GizouTestsOSX.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		524E714E190105F9009D0D98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				524E719C1901C238009D0D98 /* Foundation.framework */,
+				524E719A1901C232009D0D98 /* UIKit.framework */,
+				524E714F190105F9009D0D98 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		524E7155190105F9009D0D98 /* GizouTestsiOS */ = {
+			isa = PBXGroup;
+			children = (
+				524E715B190105F9009D0D98 /* GizouTestsiOS.m */,
+				524E7156190105F9009D0D98 /* Supporting Files */,
+			);
+			path = GizouTestsiOS;
+			sourceTree = "<group>";
+		};
+		524E7156190105F9009D0D98 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				524E7157190105F9009D0D98 /* GizouTestsiOS-Info.plist */,
+				524E7158190105F9009D0D98 /* InfoPlist.strings */,
+				524E715D190105F9009D0D98 /* GizouTestsiOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		524E717B1901062D009D0D98 /* GizouTestsOSX */ = {
+			isa = PBXGroup;
+			children = (
+				524E71811901062D009D0D98 /* GizouTestsOSX.m */,
+				524E717C1901062D009D0D98 /* Supporting Files */,
+			);
+			path = GizouTestsOSX;
+			sourceTree = "<group>";
+		};
+		524E717C1901062D009D0D98 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				524E717D1901062D009D0D98 /* GizouTestsOSX-Info.plist */,
+				524E717E1901062D009D0D98 /* InfoPlist.strings */,
+				524E71831901062D009D0D98 /* GizouTestsOSX-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		524E71871901C202009D0D98 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				5229CA951905EB28005F6482 /* Private */,
+				524E718A1901C20E009D0D98 /* Categories */,
+				524E718B1901C20E009D0D98 /* Gizou.h */,
+				524E718C1901C20E009D0D98 /* GZFaker.h */,
+				524E718D1901C20E009D0D98 /* GZFaker.m */,
+				524E71911901C20E009D0D98 /* ios */,
+				524E71931901C20E009D0D98 /* osx */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		524E718A1901C20E009D0D98 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				5229CA8E1905EB03005F6482 /* NSString+GZFakeStrings.h */,
+				5229CA8F1905EB03005F6482 /* NSString+GZFakeStrings.m */,
+			);
+			name = Categories;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		524E71911901C20E009D0D98 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				5229CA921905EB1A005F6482 /* UIImage+GZFakeImages.h */,
+				5229CA931905EB1A005F6482 /* UIImage+GZFakeImages.m */,
+			);
+			name = ios;
+			path = ../Classes/ios;
+			sourceTree = "<group>";
+		};
+		524E71931901C20E009D0D98 /* osx */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = osx;
+			path = ../Classes/osx;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		524E714B190105F9009D0D98 /* GizouTestsiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 524E715E190105F9009D0D98 /* Build configuration list for PBXNativeTarget "GizouTestsiOS" */;
+			buildPhases = (
+				524E7148190105F9009D0D98 /* Sources */,
+				524E7149190105F9009D0D98 /* Frameworks */,
+				524E714A190105F9009D0D98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GizouTestsiOS;
+			productName = GizouTestsiOS;
+			productReference = 524E714C190105F9009D0D98 /* GizouTestsiOS.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		524E71781901062D009D0D98 /* GizouTestsOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 524E71841901062D009D0D98 /* Build configuration list for PBXNativeTarget "GizouTestsOSX" */;
+			buildPhases = (
+				524E71751901062D009D0D98 /* Sources */,
+				524E71761901062D009D0D98 /* Frameworks */,
+				524E71771901062D009D0D98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GizouTestsOSX;
+			productName = GizouTestsOSX;
+			productReference = 524E71791901062D009D0D98 /* GizouTestsOSX.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		524E7142190105D3009D0D98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 524E7145190105D3009D0D98 /* Build configuration list for PBXProject "GizouTests" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 524E7141190105D3009D0D98;
+			productRefGroup = 524E714D190105F9009D0D98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				524E714B190105F9009D0D98 /* GizouTestsiOS */,
+				524E71781901062D009D0D98 /* GizouTestsOSX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		524E714A190105F9009D0D98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524E715A190105F9009D0D98 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524E71771901062D009D0D98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524E71801901062D009D0D98 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		524E7148190105F9009D0D98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5229CA981905EB31005F6482 /* GZUtilityFunctions.m in Sources */,
+				524E715C190105F9009D0D98 /* GizouTestsiOS.m in Sources */,
+				5229CA901905EB03005F6482 /* NSString+GZFakeStrings.m in Sources */,
+				524E71961901C20E009D0D98 /* GZFaker.m in Sources */,
+				5229CA941905EB1A005F6482 /* UIImage+GZFakeImages.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524E71751901062D009D0D98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524E71821901062D009D0D98 /* GizouTestsOSX.m in Sources */,
+				5229CA911905EB03005F6482 /* NSString+GZFakeStrings.m in Sources */,
+				524E71971901C20E009D0D98 /* GZFaker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		524E7158190105F9009D0D98 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				524E7159190105F9009D0D98 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		524E717E1901062D009D0D98 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				524E717F1901062D009D0D98 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		524E7146190105D3009D0D98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		524E7147190105D3009D0D98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		524E715F190105F9009D0D98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GizouTestsiOS/GizouTestsiOS-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "GizouTestsiOS/GizouTestsiOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		524E7160190105F9009D0D98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GizouTestsiOS/GizouTestsiOS-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "GizouTestsiOS/GizouTestsiOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		524E71851901062D009D0D98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GizouTestsOSX/GizouTestsOSX-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "GizouTestsOSX/GizouTestsOSX-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		524E71861901062D009D0D98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GizouTestsOSX/GizouTestsOSX-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "GizouTestsOSX/GizouTestsOSX-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		524E7145190105D3009D0D98 /* Build configuration list for PBXProject "GizouTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				524E7146190105D3009D0D98 /* Debug */,
+				524E7147190105D3009D0D98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		524E715E190105F9009D0D98 /* Build configuration list for PBXNativeTarget "GizouTestsiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				524E715F190105F9009D0D98 /* Debug */,
+				524E7160190105F9009D0D98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		524E71841901062D009D0D98 /* Build configuration list for PBXNativeTarget "GizouTestsOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				524E71851901062D009D0D98 /* Debug */,
+				524E71861901062D009D0D98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 524E7142190105D3009D0D98 /* Project object */;
+}
