@@ -8,6 +8,7 @@
 
 #import <XCTest/XCTest.h>
 #import "Gizou.h"
+#import "UIImage+GZImages.h"
 
 @interface GZImagesTests : XCTestCase
 

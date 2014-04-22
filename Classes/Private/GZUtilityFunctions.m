@@ -10,19 +10,6 @@
 
 @implementation GZUtilityFunctions
 
-BOOL isRetina()
-{
-#ifdef __IPHONE_OS_VERSION_MAX_ALLOWED
-    
-    return (([[UIScreen mainScreen] respondsToSelector:@selector(scale)]) ? [[UIScreen mainScreen] scale] > 1.0 : NO);
-    
-#else
-    
-    return (([[NSScreen mainScreen] respondsToSelector:@selector(backingScaleFactor)]) ? [[NSScreen mainScreen] backingScaleFactor] > 1.0 : NO);
-    
-#endif
-}
-
 NSArray * GZSequenceArray(NSArray *sourceArray, NSUInteger count)
 {
     NSMutableArray *returnArray = [NSMutableArray new];

@@ -6,13 +6,13 @@ namespace :test do
   
   desc "Run the Gizou Tests for iOS"
   task :ios => :prepare do
-    run_tests('GizouTestsiOS', 'iphonesimulator')
+    run_tests('iostests', 'iphonesimulator')
     tests_failed('iOS') unless $?.success?
   end
 
   desc "Run the Gizou Tests for Mac OSX"
   task :osx => :prepare do
-    run_tests('GizouTestsOSX', 'macosx')
+    run_tests('osxtests', 'macosx')
     tests_failed('OSX') unless $?.success?
   end
 end

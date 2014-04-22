@@ -59,6 +59,12 @@
          location = "container:"
          name = "ios">
          <FileRef
+            location = "group:Classes/ios/GZIOSFunctions.h">
+         </FileRef>
+         <FileRef
+            location = "group:Classes/ios/GZIOSFunctions.m">
+         </FileRef>
+         <FileRef
             location = "group:Classes/ios/UIImage+GZImages.h">
          </FileRef>
          <FileRef
@@ -68,6 +74,12 @@
       <Group
          location = "container:"
          name = "osx">
+         <FileRef
+            location = "group:Classes/osx/GZOSXFunctions.h">
+         </FileRef>
+         <FileRef
+            location = "group:Classes/osx/GZOSXFunctions.m">
+         </FileRef>
       </Group>
       <FileRef
          location = "group:Gizou.h">

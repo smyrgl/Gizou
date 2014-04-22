@@ -8,6 +8,7 @@
 
 #import "UIImage+GZImages.h"
 #import "GZUtilityFunctions.h"
+#import "GZIOSFunctions.h"
 
 static NSString * const kGizouRandomImageURLString = @"http://randomimage.setgetgo.com/get.php";
 
