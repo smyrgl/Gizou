@@ -21,38 +21,38 @@
             location = "group:Classes/NSString+GZStrings.m">
          </FileRef>
          <FileRef
-            location = "group:CLLocation+GZLocations.h">
+            location = "group:Classes/CLLocation+GZLocations.h">
          </FileRef>
          <FileRef
-            location = "group:CLLocation+GZLocations.m">
+            location = "group:Classes/CLLocation+GZLocations.m">
          </FileRef>
          <FileRef
-            location = "group:GZLocations+CoreLocationExtensions.h">
+            location = "group:Classes/GZLocations+CoreLocationExtensions.h">
          </FileRef>
          <FileRef
-            location = "group:GZLocations+CoreLocationExtensions.m">
+            location = "group:Classes/GZLocations+CoreLocationExtensions.m">
          </FileRef>
       </Group>
       <Group
          location = "container:"
          name = "Private">
          <FileRef
+            location = "group:Classes/Private/GZConstants.h">
+         </FileRef>
+         <FileRef
+            location = "group:Classes/Private/GZConstants.m">
+         </FileRef>
+         <FileRef
+            location = "group:Classes/Private/GZDataManager+GZPrivateDataRequests.h">
+         </FileRef>
+         <FileRef
+            location = "group:Classes/Private/GZDataManager+GZPrivateDataRequests.m">
+         </FileRef>
+         <FileRef
             location = "group:Classes/Private/GZUtilityFunctions.h">
          </FileRef>
          <FileRef
             location = "group:Classes/Private/GZUtilityFunctions.m">
-         </FileRef>
-         <FileRef
-            location = "group:GZConstants.h">
-         </FileRef>
-         <FileRef
-            location = "group:GZConstants.m">
-         </FileRef>
-         <FileRef
-            location = "group:GZDataManager+GZPrivateDataRequests.h">
-         </FileRef>
-         <FileRef
-            location = "group:GZDataManager+GZPrivateDataRequests.m">
          </FileRef>
       </Group>
       <Group
