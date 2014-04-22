@@ -41,14 +41,5 @@
     XCTAssert([[GZDataManager availableLanguages] containsObject:currentLanguage], @"The set language must be in the support languages list");
 }
 
-- (void)testSetNewLanguage
-{
-    
-}
-
-- (void)testSetInvalidLanguage
-{
-    
-}
 
 @end

@@ -31,8 +31,6 @@
 		52013C0C1906DFFE00193836 /* GZUtilityFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5229CA971905EB31005F6482 /* GZUtilityFunctions.m */; };
 		52013C0F1906E10000193836 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 52013C0D1906E10000193836 /* data.json */; };
 		52013C101906E10000193836 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 52013C0D1906E10000193836 /* data.json */; };
-		52013C131906E23D00193836 /* GZSequenceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52013C121906E23D00193836 /* GZSequenceTests.m */; };
-		52013C141906E23D00193836 /* GZSequenceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52013C121906E23D00193836 /* GZSequenceTests.m */; };
 		52013C1B1906E70800193836 /* GZLocations+CoreLocationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 52013C1A1906E70800193836 /* GZLocations+CoreLocationExtensions.m */; };
 		52013C1C1906E70800193836 /* GZLocations+CoreLocationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 52013C1A1906E70800193836 /* GZLocations+CoreLocationExtensions.m */; };
 		52013C1E1906E72C00193836 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52013C1D1906E72C00193836 /* CoreLocation.framework */; };
@@ -56,6 +54,9 @@
 		526073BF19070F4700FA0EA7 /* CLLocation+GZLocations.m in Sources */ = {isa = PBXBuildFile; fileRef = 526073BE19070F4700FA0EA7 /* CLLocation+GZLocations.m */; };
 		526073C019070F4700FA0EA7 /* CLLocation+GZLocations.m in Sources */ = {isa = PBXBuildFile; fileRef = 526073BE19070F4700FA0EA7 /* CLLocation+GZLocations.m */; };
 		526073C2190712F100FA0EA7 /* GZImagesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 526073C1190712F100FA0EA7 /* GZImagesTests.m */; };
+		526073C4190716BB00FA0EA7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 526073C3190716BB00FA0EA7 /* CoreLocation.framework */; };
+		526073C619071ADC00FA0EA7 /* GZCategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 526073C519071ADC00FA0EA7 /* GZCategoryTests.m */; };
+		526073C719071ADC00FA0EA7 /* GZCategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 526073C519071ADC00FA0EA7 /* GZCategoryTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,7 +82,6 @@
 		52013C061906DF4300193836 /* GZNamesTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZNamesTests.m; sourceTree = "<group>"; };
 		52013C091906DF5600193836 /* GZSetupTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZSetupTests.m; sourceTree = "<group>"; };
 		52013C0D1906E10000193836 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
-		52013C121906E23D00193836 /* GZSequenceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZSequenceTests.m; sourceTree = "<group>"; };
 		52013C191906E70800193836 /* GZLocations+CoreLocationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GZLocations+CoreLocationExtensions.h"; sourceTree = "<group>"; };
 		52013C1A1906E70800193836 /* GZLocations+CoreLocationExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GZLocations+CoreLocationExtensions.m"; sourceTree = "<group>"; };
 		52013C1D1906E72C00193836 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
@@ -108,6 +108,8 @@
 		526073BD19070F4700FA0EA7 /* CLLocation+GZLocations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLLocation+GZLocations.h"; sourceTree = "<group>"; };
 		526073BE19070F4700FA0EA7 /* CLLocation+GZLocations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLLocation+GZLocations.m"; sourceTree = "<group>"; };
 		526073C1190712F100FA0EA7 /* GZImagesTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZImagesTests.m; sourceTree = "<group>"; };
+		526073C3190716BB00FA0EA7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		526073C519071ADC00FA0EA7 /* GZCategoryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZCategoryTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				526073C4190716BB00FA0EA7 /* CoreLocation.framework in Frameworks */,
 				524E717A1901062D009D0D98 /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,9 +139,9 @@
 		52013C051906DF2900193836 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				526073C519071ADC00FA0EA7 /* GZCategoryTests.m */,
 				52013C061906DF4300193836 /* GZNamesTests.m */,
 				52013C091906DF5600193836 /* GZSetupTests.m */,
-				52013C121906E23D00193836 /* GZSequenceTests.m */,
 				52013C1F1906EA5100193836 /* GZLocationsTests.m */,
 				52013C221906EA6100193836 /* GZInternetTests.m */,
 				52013C251906EA6E00193836 /* GZWordsTests.m */,
@@ -194,6 +197,7 @@
 		524E714E190105F9009D0D98 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				526073C3190716BB00FA0EA7 /* CoreLocation.framework */,
 				52013C1D1906E72C00193836 /* CoreLocation.framework */,
 				524E719C1901C238009D0D98 /* Foundation.framework */,
 				524E719A1901C232009D0D98 /* UIKit.framework */,
@@ -385,8 +389,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				526073C619071ADC00FA0EA7 /* GZCategoryTests.m in Sources */,
 				52013BE71906CF3700193836 /* UIImage+GZImages.m in Sources */,
-				52013C131906E23D00193836 /* GZSequenceTests.m in Sources */,
 				52013C1B1906E70800193836 /* GZLocations+CoreLocationExtensions.m in Sources */,
 				52013C231906EA6100193836 /* GZInternetTests.m in Sources */,
 				52013BFB1906D74F00193836 /* GZNames.m in Sources */,
@@ -419,6 +423,7 @@
 				52013C001906D74F00193836 /* GZInternet.m in Sources */,
 				52013BF01906D40200193836 /* GZDataManager+GZPrivateDataRequests.m in Sources */,
 				52013C081906DF4300193836 /* GZNamesTests.m in Sources */,
+				526073C719071ADC00FA0EA7 /* GZCategoryTests.m in Sources */,
 				52013BFE1906D74F00193836 /* GZLocations.m in Sources */,
 				52013BEC1906D2EE00193836 /* GZConstants.m in Sources */,
 				52013C1C1906E70800193836 /* GZLocations+CoreLocationExtensions.m in Sources */,
@@ -431,7 +436,6 @@
 				52013C2A1906EA7B00193836 /* GZPhoneNumbersTests.m in Sources */,
 				52013C021906D74F00193836 /* GZWords.m in Sources */,
 				52013C211906EA5100193836 /* GZLocationsTests.m in Sources */,
-				52013C141906E23D00193836 /* GZSequenceTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

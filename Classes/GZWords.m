@@ -13,12 +13,12 @@
 
 @implementation GZWords
 
-+ (NSString*)word
++ (NSString *)word
 {
     return [GZDataManager getRandomStringForKey:GZDataWordsKey];
 }
 
-+ (NSString*)words:(NSInteger)numberOfWords
++ (NSString *)words:(NSInteger)numberOfWords
 {
     NSMutableArray *wordArray = [NSMutableArray new];
     for (int i = 0; i < numberOfWords; i++) {
@@ -28,7 +28,7 @@
     return [wordArray componentsJoinedByString:@" "];
 }
 
-+ (NSString*)characters:(NSInteger)numberOfCharacters
++ (NSString *)characters:(NSInteger)numberOfCharacters
 {
     NSMutableArray *characters = [NSMutableArray new];
     
@@ -38,7 +38,7 @@
     return [characters componentsJoinedByString:@""];
 }
 
-+ (NSString*)numbers:(NSInteger)numberOfNumbers
++ (NSString *)numbers:(NSInteger)numberOfNumbers
 {
     NSMutableArray *numbers = [NSMutableArray new];
     
@@ -48,12 +48,12 @@
     return [numbers componentsJoinedByString:@""];
 }
 
-+ (NSString*)sentence
++ (NSString *)sentence
 {
     return [self sentenceWithNumberOfWords:arc4random_uniform(6) + 4];
 }
 
-+ (NSString*)sentenceWithNumberOfWords:(NSInteger)numberOfWords
++ (NSString *)sentenceWithNumberOfWords:(NSInteger)numberOfWords
 {
     NSMutableArray* words = [NSMutableArray new];
     
@@ -69,7 +69,7 @@
     return sentence;
 }
 
-+ (NSString*)sentences:(NSInteger)numberOfSentences
++ (NSString *)sentences:(NSInteger)numberOfSentences
 {
     NSMutableArray *sentences = [NSMutableArray new];
     
@@ -80,22 +80,22 @@
     return [sentences componentsJoinedByString:@" "];
 }
 
-+ (NSString*)paragraph
++ (NSString *)paragraph
 {
     return [self paragraphWithNumberOfSentences:arc4random_uniform(6) + 3];
 }
 
-+ (NSString*)paragraphWithNumberOfSentences:(NSInteger)numberOfSentences
++ (NSString *)paragraphWithNumberOfSentences:(NSInteger)numberOfSentences
 {
     return [self sentences:numberOfSentences];
 }
 
-+ (NSString*)paragraphs
++ (NSString *)paragraphs
 {
     return [self paragraphs:arc4random_uniform(6) + 3];
 }
 
-+ (NSString*)paragraphs:(NSInteger)numberOfParagraphs
++ (NSString *)paragraphs:(NSInteger)numberOfParagraphs
 {
     NSMutableArray *paragraphs = [NSMutableArray new];
     
