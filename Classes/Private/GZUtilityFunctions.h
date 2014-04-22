@@ -12,4 +12,6 @@
 
 extern BOOL isRetina();
 
+extern NSArray * GZSequenceArray(NSArray *sourceArray, NSUInteger count);
+
 @end

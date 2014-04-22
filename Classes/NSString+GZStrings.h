@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSString (GZFakeStrings)
+@interface NSString (GZStrings)
 
 @end

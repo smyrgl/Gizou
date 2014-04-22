@@ -7,15 +7,18 @@
       <Group
          location = "group:../Assets"
          name = "Assets">
+         <FileRef
+            location = "group:data.json">
+         </FileRef>
       </Group>
       <Group
          location = "container:"
          name = "Categories">
          <FileRef
-            location = "group:Classes/NSString+GZFakeStrings.h">
+            location = "group:Classes/NSString+GZStrings.h">
          </FileRef>
          <FileRef
-            location = "group:Classes/NSString+GZFakeStrings.m">
+            location = "group:Classes/NSString+GZStrings.m">
          </FileRef>
       </Group>
       <Group
@@ -27,15 +30,27 @@
          <FileRef
             location = "group:Classes/Private/GZUtilityFunctions.m">
          </FileRef>
+         <FileRef
+            location = "group:GZConstants.h">
+         </FileRef>
+         <FileRef
+            location = "group:GZConstants.m">
+         </FileRef>
+         <FileRef
+            location = "group:GZDataManager+GZPrivateDataRequests.h">
+         </FileRef>
+         <FileRef
+            location = "group:GZDataManager+GZPrivateDataRequests.m">
+         </FileRef>
       </Group>
       <Group
          location = "container:"
          name = "ios">
          <FileRef
-            location = "group:Classes/ios/UIImage+GZFakeImages.h">
+            location = "group:Classes/ios/UIImage+GZImages.h">
          </FileRef>
          <FileRef
-            location = "group:Classes/ios/UIImage+GZFakeImages.m">
+            location = "group:Classes/ios/UIImage+GZImages.m">
          </FileRef>
       </Group>
       <Group
@@ -46,10 +61,40 @@
          location = "group:Gizou.h">
       </FileRef>
       <FileRef
-         location = "group:GZFaker.h">
+         location = "group:/Users/john/Code/Gizou/Classes/GZDataManager.h">
       </FileRef>
       <FileRef
-         location = "group:GZFaker.m">
+         location = "group:/Users/john/Code/Gizou/Classes/GZDataManager.m">
+      </FileRef>
+      <FileRef
+         location = "group:GZNames.h">
+      </FileRef>
+      <FileRef
+         location = "group:GZNames.m">
+      </FileRef>
+      <FileRef
+         location = "group:GZLocations.h">
+      </FileRef>
+      <FileRef
+         location = "group:GZLocations.m">
+      </FileRef>
+      <FileRef
+         location = "group:GZInternet.h">
+      </FileRef>
+      <FileRef
+         location = "group:GZInternet.m">
+      </FileRef>
+      <FileRef
+         location = "group:GZWords.h">
+      </FileRef>
+      <FileRef
+         location = "group:GZWords.m">
+      </FileRef>
+      <FileRef
+         location = "group:GZPhoneNumbers.h">
+      </FileRef>
+      <FileRef
+         location = "group:GZPhoneNumbers.m">
       </FileRef>
    </Group>
    <FileRef

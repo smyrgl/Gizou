@@ -6,8 +6,8 @@
 //
 //
 
-#import "NSString+GZFakeStrings.h"
+#import "NSString+GZStrings.h"
 
-@implementation NSString (GZFakeStrings)
+@implementation NSString (GZStrings)
 
 @end

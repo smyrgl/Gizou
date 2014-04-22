@@ -6,12 +6,12 @@
 //
 //
 
-#import "UIImage+GZFakeImages.h"
+#import "UIImage+GZImages.h"
 #import "GZUtilityFunctions.h"
 
 static NSString * const kGizouRandomImageURLString = @"http://randomimage.setgetgo.com/get.php";
 
-@implementation UIImage (GZFakeImages)
+@implementation UIImage (GZImages)
 
 + (UIImage *)imageWithColor:(UIColor *)color
 {

@@ -7,43 +7,81 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5229CA901905EB03005F6482 /* NSString+GZFakeStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = 5229CA8F1905EB03005F6482 /* NSString+GZFakeStrings.m */; };
-		5229CA911905EB03005F6482 /* NSString+GZFakeStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = 5229CA8F1905EB03005F6482 /* NSString+GZFakeStrings.m */; };
-		5229CA941905EB1A005F6482 /* UIImage+GZFakeImages.m in Sources */ = {isa = PBXBuildFile; fileRef = 5229CA931905EB1A005F6482 /* UIImage+GZFakeImages.m */; };
+		52013BE31906CF2700193836 /* NSString+GZStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = 52013BE21906CF2700193836 /* NSString+GZStrings.m */; };
+		52013BE41906CF2700193836 /* NSString+GZStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = 52013BE21906CF2700193836 /* NSString+GZStrings.m */; };
+		52013BE71906CF3700193836 /* UIImage+GZImages.m in Sources */ = {isa = PBXBuildFile; fileRef = 52013BE61906CF3700193836 /* UIImage+GZImages.m */; };
+		52013BEB1906D2EE00193836 /* GZConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 52013BEA1906D2EE00193836 /* GZConstants.m */; };
+		52013BEC1906D2EE00193836 /* GZConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 52013BEA1906D2EE00193836 /* GZConstants.m */; };
+		52013BEF1906D40200193836 /* GZDataManager+GZPrivateDataRequests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52013BEE1906D40200193836 /* GZDataManager+GZPrivateDataRequests.m */; };
+		52013BF01906D40200193836 /* GZDataManager+GZPrivateDataRequests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52013BEE1906D40200193836 /* GZDataManager+GZPrivateDataRequests.m */; };
+		52013BFB1906D74F00193836 /* GZNames.m in Sources */ = {isa = PBXBuildFile; fileRef = 52013BF21906D74F00193836 /* GZNames.m */; };
+		52013BFC1906D74F00193836 /* GZNames.m in Sources */ = {isa = PBXBuildFile; fileRef = 52013BF21906D74F00193836 /* GZNames.m */; };
+		52013BFD1906D74F00193836 /* GZLocations.m in Sources */ = {isa = PBXBuildFile; fileRef = 52013BF41906D74F00193836 /* GZLocations.m */; };
+		52013BFE1906D74F00193836 /* GZLocations.m in Sources */ = {isa = PBXBuildFile; fileRef = 52013BF41906D74F00193836 /* GZLocations.m */; };
+		52013BFF1906D74F00193836 /* GZInternet.m in Sources */ = {isa = PBXBuildFile; fileRef = 52013BF61906D74F00193836 /* GZInternet.m */; };
+		52013C001906D74F00193836 /* GZInternet.m in Sources */ = {isa = PBXBuildFile; fileRef = 52013BF61906D74F00193836 /* GZInternet.m */; };
+		52013C011906D74F00193836 /* GZWords.m in Sources */ = {isa = PBXBuildFile; fileRef = 52013BF81906D74F00193836 /* GZWords.m */; };
+		52013C021906D74F00193836 /* GZWords.m in Sources */ = {isa = PBXBuildFile; fileRef = 52013BF81906D74F00193836 /* GZWords.m */; };
+		52013C031906D74F00193836 /* GZPhoneNumbers.m in Sources */ = {isa = PBXBuildFile; fileRef = 52013BFA1906D74F00193836 /* GZPhoneNumbers.m */; };
+		52013C041906D74F00193836 /* GZPhoneNumbers.m in Sources */ = {isa = PBXBuildFile; fileRef = 52013BFA1906D74F00193836 /* GZPhoneNumbers.m */; };
+		52013C071906DF4300193836 /* GZNamesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52013C061906DF4300193836 /* GZNamesTests.m */; };
+		52013C081906DF4300193836 /* GZNamesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52013C061906DF4300193836 /* GZNamesTests.m */; };
+		52013C0A1906DF5600193836 /* GZSetupTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52013C091906DF5600193836 /* GZSetupTests.m */; };
+		52013C0B1906DF5600193836 /* GZSetupTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52013C091906DF5600193836 /* GZSetupTests.m */; };
+		52013C0C1906DFFE00193836 /* GZUtilityFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5229CA971905EB31005F6482 /* GZUtilityFunctions.m */; };
+		52013C0F1906E10000193836 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 52013C0D1906E10000193836 /* data.json */; };
+		52013C101906E10000193836 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 52013C0D1906E10000193836 /* data.json */; };
+		52013C131906E23D00193836 /* GZSequenceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52013C121906E23D00193836 /* GZSequenceTests.m */; };
+		52013C141906E23D00193836 /* GZSequenceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52013C121906E23D00193836 /* GZSequenceTests.m */; };
 		5229CA981905EB31005F6482 /* GZUtilityFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5229CA971905EB31005F6482 /* GZUtilityFunctions.m */; };
 		524E7150190105F9009D0D98 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 524E714F190105F9009D0D98 /* XCTest.framework */; };
 		524E715A190105F9009D0D98 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 524E7158190105F9009D0D98 /* InfoPlist.strings */; };
-		524E715C190105F9009D0D98 /* GizouTestsiOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 524E715B190105F9009D0D98 /* GizouTestsiOS.m */; };
 		524E717A1901062D009D0D98 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 524E714F190105F9009D0D98 /* XCTest.framework */; };
 		524E71801901062D009D0D98 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 524E717E1901062D009D0D98 /* InfoPlist.strings */; };
-		524E71821901062D009D0D98 /* GizouTestsOSX.m in Sources */ = {isa = PBXBuildFile; fileRef = 524E71811901062D009D0D98 /* GizouTestsOSX.m */; };
-		524E71961901C20E009D0D98 /* GZFaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 524E718D1901C20E009D0D98 /* GZFaker.m */; };
-		524E71971901C20E009D0D98 /* GZFaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 524E718D1901C20E009D0D98 /* GZFaker.m */; };
+		524E71961901C20E009D0D98 /* GZDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 524E718D1901C20E009D0D98 /* GZDataManager.m */; };
+		524E71971901C20E009D0D98 /* GZDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 524E718D1901C20E009D0D98 /* GZDataManager.m */; };
 		524E719B1901C232009D0D98 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 524E719A1901C232009D0D98 /* UIKit.framework */; };
 		524E719D1901C238009D0D98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 524E719C1901C238009D0D98 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5229CA8E1905EB03005F6482 /* NSString+GZFakeStrings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+GZFakeStrings.h"; path = "Classes/NSString+GZFakeStrings.h"; sourceTree = "<group>"; };
-		5229CA8F1905EB03005F6482 /* NSString+GZFakeStrings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+GZFakeStrings.m"; path = "Classes/NSString+GZFakeStrings.m"; sourceTree = "<group>"; };
-		5229CA921905EB1A005F6482 /* UIImage+GZFakeImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GZFakeImages.h"; sourceTree = "<group>"; };
-		5229CA931905EB1A005F6482 /* UIImage+GZFakeImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GZFakeImages.m"; sourceTree = "<group>"; };
+		52013B6F1906C50600193836 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		52013BE11906CF2700193836 /* NSString+GZStrings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+GZStrings.h"; path = "Classes/NSString+GZStrings.h"; sourceTree = "<group>"; };
+		52013BE21906CF2700193836 /* NSString+GZStrings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+GZStrings.m"; path = "Classes/NSString+GZStrings.m"; sourceTree = "<group>"; };
+		52013BE51906CF3700193836 /* UIImage+GZImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GZImages.h"; sourceTree = "<group>"; };
+		52013BE61906CF3700193836 /* UIImage+GZImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GZImages.m"; sourceTree = "<group>"; };
+		52013BE91906D2EE00193836 /* GZConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GZConstants.h; path = ../GZConstants.h; sourceTree = "<group>"; };
+		52013BEA1906D2EE00193836 /* GZConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GZConstants.m; path = ../GZConstants.m; sourceTree = "<group>"; };
+		52013BED1906D40200193836 /* GZDataManager+GZPrivateDataRequests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GZDataManager+GZPrivateDataRequests.h"; path = "../GZDataManager+GZPrivateDataRequests.h"; sourceTree = "<group>"; };
+		52013BEE1906D40200193836 /* GZDataManager+GZPrivateDataRequests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "GZDataManager+GZPrivateDataRequests.m"; path = "../GZDataManager+GZPrivateDataRequests.m"; sourceTree = "<group>"; };
+		52013BF11906D74F00193836 /* GZNames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GZNames.h; path = ../Classes/GZNames.h; sourceTree = "<group>"; };
+		52013BF21906D74F00193836 /* GZNames.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GZNames.m; path = ../Classes/GZNames.m; sourceTree = "<group>"; };
+		52013BF31906D74F00193836 /* GZLocations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GZLocations.h; path = ../Classes/GZLocations.h; sourceTree = "<group>"; };
+		52013BF41906D74F00193836 /* GZLocations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GZLocations.m; path = ../Classes/GZLocations.m; sourceTree = "<group>"; };
+		52013BF51906D74F00193836 /* GZInternet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GZInternet.h; path = ../Classes/GZInternet.h; sourceTree = "<group>"; };
+		52013BF61906D74F00193836 /* GZInternet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GZInternet.m; path = ../Classes/GZInternet.m; sourceTree = "<group>"; };
+		52013BF71906D74F00193836 /* GZWords.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GZWords.h; path = ../Classes/GZWords.h; sourceTree = "<group>"; };
+		52013BF81906D74F00193836 /* GZWords.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GZWords.m; path = ../Classes/GZWords.m; sourceTree = "<group>"; };
+		52013BF91906D74F00193836 /* GZPhoneNumbers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GZPhoneNumbers.h; path = ../Classes/GZPhoneNumbers.h; sourceTree = "<group>"; };
+		52013BFA1906D74F00193836 /* GZPhoneNumbers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GZPhoneNumbers.m; path = ../Classes/GZPhoneNumbers.m; sourceTree = "<group>"; };
+		52013C061906DF4300193836 /* GZNamesTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZNamesTests.m; sourceTree = "<group>"; };
+		52013C091906DF5600193836 /* GZSetupTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZSetupTests.m; sourceTree = "<group>"; };
+		52013C0D1906E10000193836 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		52013C121906E23D00193836 /* GZSequenceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZSequenceTests.m; sourceTree = "<group>"; };
 		5229CA961905EB31005F6482 /* GZUtilityFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GZUtilityFunctions.h; path = ../Classes/Private/GZUtilityFunctions.h; sourceTree = "<group>"; };
 		5229CA971905EB31005F6482 /* GZUtilityFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GZUtilityFunctions.m; path = ../Classes/Private/GZUtilityFunctions.m; sourceTree = "<group>"; };
 		524E714C190105F9009D0D98 /* GizouTestsiOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GizouTestsiOS.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		524E714F190105F9009D0D98 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		524E7157190105F9009D0D98 /* GizouTestsiOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GizouTestsiOS-Info.plist"; sourceTree = "<group>"; };
 		524E7159190105F9009D0D98 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		524E715B190105F9009D0D98 /* GizouTestsiOS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GizouTestsiOS.m; sourceTree = "<group>"; };
 		524E715D190105F9009D0D98 /* GizouTestsiOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GizouTestsiOS-Prefix.pch"; sourceTree = "<group>"; };
 		524E71791901062D009D0D98 /* GizouTestsOSX.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GizouTestsOSX.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		524E717D1901062D009D0D98 /* GizouTestsOSX-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GizouTestsOSX-Info.plist"; sourceTree = "<group>"; };
 		524E717F1901062D009D0D98 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		524E71811901062D009D0D98 /* GizouTestsOSX.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GizouTestsOSX.m; sourceTree = "<group>"; };
 		524E71831901062D009D0D98 /* GizouTestsOSX-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GizouTestsOSX-Prefix.pch"; sourceTree = "<group>"; };
 		524E718B1901C20E009D0D98 /* Gizou.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Gizou.h; path = ../Classes/Gizou.h; sourceTree = "<group>"; };
-		524E718C1901C20E009D0D98 /* GZFaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GZFaker.h; path = ../Classes/GZFaker.h; sourceTree = "<group>"; };
-		524E718D1901C20E009D0D98 /* GZFaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GZFaker.m; path = ../Classes/GZFaker.m; sourceTree = "<group>"; };
+		524E718C1901C20E009D0D98 /* GZDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GZDataManager.h; path = ../Classes/GZDataManager.h; sourceTree = "<group>"; };
+		524E718D1901C20E009D0D98 /* GZDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GZDataManager.m; path = ../Classes/GZDataManager.m; sourceTree = "<group>"; };
 		524E719A1901C232009D0D98 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		524E719C1901C238009D0D98 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -70,11 +108,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52013C051906DF2900193836 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				52013C061906DF4300193836 /* GZNamesTests.m */,
+				52013C091906DF5600193836 /* GZSetupTests.m */,
+				52013C121906E23D00193836 /* GZSequenceTests.m */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
+		52013C0E1906E10000193836 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				52013C0D1906E10000193836 /* data.json */,
+			);
+			name = Assets;
+			path = /Users/john/Code/Gizou/Classes/../Assets;
+			sourceTree = "<absolute>";
+		};
 		5229CA951905EB28005F6482 /* Private */ = {
 			isa = PBXGroup;
 			children = (
 				5229CA961905EB31005F6482 /* GZUtilityFunctions.h */,
 				5229CA971905EB31005F6482 /* GZUtilityFunctions.m */,
+				52013BE91906D2EE00193836 /* GZConstants.h */,
+				52013BEA1906D2EE00193836 /* GZConstants.m */,
+				52013BED1906D40200193836 /* GZDataManager+GZPrivateDataRequests.h */,
+				52013BEE1906D40200193836 /* GZDataManager+GZPrivateDataRequests.m */,
 			);
 			name = Private;
 			sourceTree = "<group>";
@@ -82,6 +143,7 @@
 		524E7141190105D3009D0D98 = {
 			isa = PBXGroup;
 			children = (
+				52013C051906DF2900193836 /* Tests */,
 				524E7155190105F9009D0D98 /* GizouTestsiOS */,
 				524E717B1901062D009D0D98 /* GizouTestsOSX */,
 				524E714E190105F9009D0D98 /* Frameworks */,
@@ -105,6 +167,7 @@
 				524E719C1901C238009D0D98 /* Foundation.framework */,
 				524E719A1901C232009D0D98 /* UIKit.framework */,
 				524E714F190105F9009D0D98 /* XCTest.framework */,
+				52013B6F1906C50600193836 /* CoreFoundation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,7 +175,6 @@
 		524E7155190105F9009D0D98 /* GizouTestsiOS */ = {
 			isa = PBXGroup;
 			children = (
-				524E715B190105F9009D0D98 /* GizouTestsiOS.m */,
 				524E7156190105F9009D0D98 /* Supporting Files */,
 			);
 			path = GizouTestsiOS;
@@ -131,7 +193,6 @@
 		524E717B1901062D009D0D98 /* GizouTestsOSX */ = {
 			isa = PBXGroup;
 			children = (
-				524E71811901062D009D0D98 /* GizouTestsOSX.m */,
 				524E717C1901062D009D0D98 /* Supporting Files */,
 			);
 			path = GizouTestsOSX;
@@ -150,11 +211,22 @@
 		524E71871901C202009D0D98 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				52013C0E1906E10000193836 /* Assets */,
 				5229CA951905EB28005F6482 /* Private */,
 				524E718A1901C20E009D0D98 /* Categories */,
 				524E718B1901C20E009D0D98 /* Gizou.h */,
-				524E718C1901C20E009D0D98 /* GZFaker.h */,
-				524E718D1901C20E009D0D98 /* GZFaker.m */,
+				524E718C1901C20E009D0D98 /* GZDataManager.h */,
+				524E718D1901C20E009D0D98 /* GZDataManager.m */,
+				52013BF11906D74F00193836 /* GZNames.h */,
+				52013BF21906D74F00193836 /* GZNames.m */,
+				52013BF31906D74F00193836 /* GZLocations.h */,
+				52013BF41906D74F00193836 /* GZLocations.m */,
+				52013BF51906D74F00193836 /* GZInternet.h */,
+				52013BF61906D74F00193836 /* GZInternet.m */,
+				52013BF71906D74F00193836 /* GZWords.h */,
+				52013BF81906D74F00193836 /* GZWords.m */,
+				52013BF91906D74F00193836 /* GZPhoneNumbers.h */,
+				52013BFA1906D74F00193836 /* GZPhoneNumbers.m */,
 				524E71911901C20E009D0D98 /* ios */,
 				524E71931901C20E009D0D98 /* osx */,
 			);
@@ -164,8 +236,8 @@
 		524E718A1901C20E009D0D98 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				5229CA8E1905EB03005F6482 /* NSString+GZFakeStrings.h */,
-				5229CA8F1905EB03005F6482 /* NSString+GZFakeStrings.m */,
+				52013BE11906CF2700193836 /* NSString+GZStrings.h */,
+				52013BE21906CF2700193836 /* NSString+GZStrings.m */,
 			);
 			name = Categories;
 			path = ..;
@@ -174,8 +246,8 @@
 		524E71911901C20E009D0D98 /* ios */ = {
 			isa = PBXGroup;
 			children = (
-				5229CA921905EB1A005F6482 /* UIImage+GZFakeImages.h */,
-				5229CA931905EB1A005F6482 /* UIImage+GZFakeImages.m */,
+				52013BE51906CF3700193836 /* UIImage+GZImages.h */,
+				52013BE61906CF3700193836 /* UIImage+GZImages.m */,
 			);
 			name = ios;
 			path = ../Classes/ios;
@@ -258,6 +330,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				524E715A190105F9009D0D98 /* InfoPlist.strings in Resources */,
+				52013C0F1906E10000193836 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +339,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				524E71801901062D009D0D98 /* InfoPlist.strings in Resources */,
+				52013C101906E10000193836 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,11 +350,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52013BE71906CF3700193836 /* UIImage+GZImages.m in Sources */,
+				52013C131906E23D00193836 /* GZSequenceTests.m in Sources */,
+				52013BFB1906D74F00193836 /* GZNames.m in Sources */,
+				52013BEF1906D40200193836 /* GZDataManager+GZPrivateDataRequests.m in Sources */,
 				5229CA981905EB31005F6482 /* GZUtilityFunctions.m in Sources */,
-				524E715C190105F9009D0D98 /* GizouTestsiOS.m in Sources */,
-				5229CA901905EB03005F6482 /* NSString+GZFakeStrings.m in Sources */,
-				524E71961901C20E009D0D98 /* GZFaker.m in Sources */,
-				5229CA941905EB1A005F6482 /* UIImage+GZFakeImages.m in Sources */,
+				524E71961901C20E009D0D98 /* GZDataManager.m in Sources */,
+				52013C031906D74F00193836 /* GZPhoneNumbers.m in Sources */,
+				52013BEB1906D2EE00193836 /* GZConstants.m in Sources */,
+				52013C011906D74F00193836 /* GZWords.m in Sources */,
+				52013BFF1906D74F00193836 /* GZInternet.m in Sources */,
+				52013BFD1906D74F00193836 /* GZLocations.m in Sources */,
+				52013BE31906CF2700193836 /* NSString+GZStrings.m in Sources */,
+				52013C0A1906DF5600193836 /* GZSetupTests.m in Sources */,
+				52013C071906DF4300193836 /* GZNamesTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,9 +371,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				524E71821901062D009D0D98 /* GizouTestsOSX.m in Sources */,
-				5229CA911905EB03005F6482 /* NSString+GZFakeStrings.m in Sources */,
-				524E71971901C20E009D0D98 /* GZFaker.m in Sources */,
+				52013BE41906CF2700193836 /* NSString+GZStrings.m in Sources */,
+				52013C0B1906DF5600193836 /* GZSetupTests.m in Sources */,
+				52013C001906D74F00193836 /* GZInternet.m in Sources */,
+				52013BF01906D40200193836 /* GZDataManager+GZPrivateDataRequests.m in Sources */,
+				52013C081906DF4300193836 /* GZNamesTests.m in Sources */,
+				52013BFE1906D74F00193836 /* GZLocations.m in Sources */,
+				52013BEC1906D2EE00193836 /* GZConstants.m in Sources */,
+				52013C0C1906DFFE00193836 /* GZUtilityFunctions.m in Sources */,
+				52013C041906D74F00193836 /* GZPhoneNumbers.m in Sources */,
+				524E71971901C20E009D0D98 /* GZDataManager.m in Sources */,
+				52013BFC1906D74F00193836 /* GZNames.m in Sources */,
+				52013C021906D74F00193836 /* GZWords.m in Sources */,
+				52013C141906E23D00193836 /* GZSequenceTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
