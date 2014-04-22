@@ -13,4 +13,9 @@
 
 @implementation GZPhoneNumbers
 
++ (NSString *)phoneNumber
+{
+    return @"";
+}
+
 @end

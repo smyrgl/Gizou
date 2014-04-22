@@ -15,7 +15,7 @@ static NSString * const kGizouRandomImageURLString = @"http://randomimage.setget
 
 + (UIImage *)imageWithColor:(UIColor *)color
 {
-    return [self imageWithColor:color withFrame:CGRectMake(0, 0, 1, 1)];
+    return [self imageWithColor:color andSize:CGSizeMake(1, 1)];
 }
 
 + (UIImage *)imageWithColor:(UIColor *)color andSize:(CGSize)size
@@ -32,18 +32,6 @@ static NSString * const kGizouRandomImageURLString = @"http://randomimage.setget
     UIGraphicsEndImageContext();
     
     return img;
-}
-
-+ (UIImage *)imageWithColor:(UIColor *)color withFrame:(CGRect)frame
-{
-    CGRect rect = frame;
-    UIGraphicsBeginImageContextWithOptions(rect.size, NO, 0);
-    [color setFill];
-    UIRectFill(rect);
-    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
-    UIGraphicsEndImageContext();
-    
-    return image;
 }
 
 + (UIImage *)randomImage
@@ -66,7 +54,6 @@ static NSString * const kGizouRandomImageURLString = @"http://randomimage.setget
         heightString = [NSString stringWithFormat:@"%f", size.height];
         widthString = [NSString stringWithFormat:@"%f", size.width];
     }
-    
     
     NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"%@?height=%@&width=%@", kGizouRandomImageURLString, heightString, widthString]]];
     NSAssert([NSURLConnection canHandleRequest:request], @"The request cannot be handled, check to make sure you have network connectivity");

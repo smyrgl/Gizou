@@ -53,6 +53,9 @@
 		524E71971901C20E009D0D98 /* GZDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 524E718D1901C20E009D0D98 /* GZDataManager.m */; };
 		524E719B1901C232009D0D98 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 524E719A1901C232009D0D98 /* UIKit.framework */; };
 		524E719D1901C238009D0D98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 524E719C1901C238009D0D98 /* Foundation.framework */; };
+		526073BF19070F4700FA0EA7 /* CLLocation+GZLocations.m in Sources */ = {isa = PBXBuildFile; fileRef = 526073BE19070F4700FA0EA7 /* CLLocation+GZLocations.m */; };
+		526073C019070F4700FA0EA7 /* CLLocation+GZLocations.m in Sources */ = {isa = PBXBuildFile; fileRef = 526073BE19070F4700FA0EA7 /* CLLocation+GZLocations.m */; };
+		526073C2190712F100FA0EA7 /* GZImagesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 526073C1190712F100FA0EA7 /* GZImagesTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -102,6 +105,9 @@
 		524E718D1901C20E009D0D98 /* GZDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GZDataManager.m; path = ../Classes/GZDataManager.m; sourceTree = "<group>"; };
 		524E719A1901C232009D0D98 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		524E719C1901C238009D0D98 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		526073BD19070F4700FA0EA7 /* CLLocation+GZLocations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLLocation+GZLocations.h"; sourceTree = "<group>"; };
+		526073BE19070F4700FA0EA7 /* CLLocation+GZLocations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLLocation+GZLocations.m"; sourceTree = "<group>"; };
+		526073C1190712F100FA0EA7 /* GZImagesTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZImagesTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +143,7 @@
 				52013C221906EA6100193836 /* GZInternetTests.m */,
 				52013C251906EA6E00193836 /* GZWordsTests.m */,
 				52013C281906EA7B00193836 /* GZPhoneNumbersTests.m */,
+				526073C1190712F100FA0EA7 /* GZImagesTests.m */,
 			);
 			name = Tests;
 			sourceTree = "<group>";
@@ -262,6 +269,8 @@
 			children = (
 				52013BE11906CF2700193836 /* NSString+GZStrings.h */,
 				52013BE21906CF2700193836 /* NSString+GZStrings.m */,
+				526073BD19070F4700FA0EA7 /* CLLocation+GZLocations.h */,
+				526073BE19070F4700FA0EA7 /* CLLocation+GZLocations.m */,
 				52013C191906E70800193836 /* GZLocations+CoreLocationExtensions.h */,
 				52013C1A1906E70800193836 /* GZLocations+CoreLocationExtensions.m */,
 			);
@@ -395,6 +404,8 @@
 				52013C201906EA5100193836 /* GZLocationsTests.m in Sources */,
 				52013C0A1906DF5600193836 /* GZSetupTests.m in Sources */,
 				52013C071906DF4300193836 /* GZNamesTests.m in Sources */,
+				526073C2190712F100FA0EA7 /* GZImagesTests.m in Sources */,
+				526073BF19070F4700FA0EA7 /* CLLocation+GZLocations.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +425,7 @@
 				52013C0C1906DFFE00193836 /* GZUtilityFunctions.m in Sources */,
 				52013C241906EA6100193836 /* GZInternetTests.m in Sources */,
 				52013C041906D74F00193836 /* GZPhoneNumbers.m in Sources */,
+				526073C019070F4700FA0EA7 /* CLLocation+GZLocations.m in Sources */,
 				524E71971901C20E009D0D98 /* GZDataManager.m in Sources */,
 				52013BFC1906D74F00193836 /* GZNames.m in Sources */,
 				52013C2A1906EA7B00193836 /* GZPhoneNumbersTests.m in Sources */,

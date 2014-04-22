@@ -26,9 +26,9 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testWord
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    
 }
 
 @end

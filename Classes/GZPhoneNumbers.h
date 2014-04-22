@@ -10,4 +10,6 @@
 
 @interface GZPhoneNumbers : NSObject
 
++ (NSString *)phoneNumber;
+
 @end

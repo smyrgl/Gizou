@@ -21,6 +21,12 @@
             location = "group:Classes/NSString+GZStrings.m">
          </FileRef>
          <FileRef
+            location = "group:CLLocation+GZLocations.h">
+         </FileRef>
+         <FileRef
+            location = "group:CLLocation+GZLocations.m">
+         </FileRef>
+         <FileRef
             location = "group:GZLocations+CoreLocationExtensions.h">
          </FileRef>
          <FileRef
@@ -65,6 +71,9 @@
       </Group>
       <FileRef
          location = "group:Gizou.h">
+      </FileRef>
+      <FileRef
+         location = "group:GizouOptional.h">
       </FileRef>
       <FileRef
          location = "group:/Users/john/Code/Gizou/Classes/GZDataManager.h">

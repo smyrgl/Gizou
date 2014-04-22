@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "Gizou.h"
 
 @interface GZPhoneNumbersTests : XCTestCase
 
@@ -26,9 +27,11 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testPhoneNumber
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    NSString *phoneNumber = [GZPhoneNumbers phoneNumber];
+    XCTAssert(phoneNumber, @"There must be a phone number");
+    XCTAssert(phoneNumber.length > 0, @"The length must be greater than zero");
 }
 
 @end

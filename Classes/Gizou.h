@@ -1,14 +1,12 @@
+#ifndef _Gizou_h
+#define _Gizou_h
+
 #import <Foundation/Foundation.h>
 #import <Availability.h>
 
-#import "NSString+GZStrings.h"
-
 #ifdef __IPHONE_OS_VERSION_MAX_ALLOWED
-
 #import "UIImage+GZImages.h"
-
 #else
-
 
 #endif
 
@@ -21,4 +19,6 @@
 
 #ifdef _CORELOCATIONDEFINES_H
 #import "GZLocations+CoreLocationExtensions.h"
+#endif
+
 #endif
