@@ -7,9 +7,8 @@ Pod::Spec.new do |s|
   s.author           = { "John Tumminaro" => "john@tinylittlegears.com" }
   s.source           = { :git => "https://github.com/smyrgl/Gizou.git", :tag => s.version.to_s }
 
-  s.platform     = :ios, '7.0'
-  s.ios.deployment_target = '7.1'
-  s.osx.deployment_target = '10.9'
+  s.ios.deployment_target = '6.0'
+  s.osx.deployment_target = '10.7'
   s.requires_arc = true
 
   s.source_files = "Classes/**/*.{h,m}"
