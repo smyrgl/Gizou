@@ -9,10 +9,6 @@
 #import "GZLocations.h"
 #import <CoreLocation/CoreLocation.h>
 
-/**
- *  Extensions for Gizou if you are using CoreLocation.
- */
-
 @interface GZLocations (CoreLocationExtensions)
 
 /**

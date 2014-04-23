@@ -14,6 +14,10 @@
 
 @interface GZNames : NSObject
 
+///-------------------
+/// @name Single names
+///-------------------
+
 /**
  *  Returns a full name with at least two parts (First Name/Last Name) and may randomly contain a prefix, suffix or both.
  *
@@ -54,6 +58,10 @@
 
 
 + (NSString *)suffix;
+
+///---------------------
+/// @name Name sequences
+///---------------------
 
 /**
  *  Creates a series of unique full names.  The equivalent of calling `name` but will return guaranteed unique values.

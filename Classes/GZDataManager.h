@@ -14,6 +14,10 @@
 
 @interface GZDataManager : NSObject
 
+///------------------------
+/// @name Language settings
+///------------------------
+
 /**
  *  List of the avaiable languages.
  *

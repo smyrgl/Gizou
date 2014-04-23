@@ -8,7 +8,17 @@
 
 #import <Foundation/Foundation.h>
 
+/**
+ *  Creates sample phone number strings.
+ */
+
 @interface GZPhoneNumbers : NSObject
+
+/**
+ *  Returns a sample phone number string in a random format such as "(xxx)xxx-xxxx" or "xxx-xxx-xxxx".
+ *
+ *  @return String with a random phone number.
+ */
 
 + (NSString *)phoneNumber;
 
