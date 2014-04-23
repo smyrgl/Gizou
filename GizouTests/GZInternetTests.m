@@ -93,7 +93,7 @@
     XCTAssert(emailSequence.count == 10, @"The sequence count must equal 10");
     
     for (NSString *email in emailSequence) {
-        XCTAssertTrue([GZInternetTests validateEmail:email], @"The email must be a valid format");
+        XCTAssertTrue([GZInternetTests validateEmail:email], @"The email must be a valid format which %@ is not", email);
     }
     
     NSSet *emailSet = [NSSet setWithArray:emailSequence];

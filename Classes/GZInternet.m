@@ -33,9 +33,9 @@
     
     for (int i = 0; i < random; i++) {
         if (i == 0) {
-            [components addObject:[GZNames firstName]];
+            [components addObject:[[GZNames firstName] stringByReplacingOccurrencesOfString:@"'" withString:@""]];
         } else if (i == 1) {
-            [components addObject:[GZNames lastName]];
+            [components addObject:[[GZNames lastName]stringByReplacingOccurrencesOfString:@"'" withString:@""]];
         } else {
             [components addObject:[NSNumber numberWithInteger:arc4random_uniform(10000)]];
         }
