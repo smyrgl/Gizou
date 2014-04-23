@@ -51,7 +51,8 @@
 {
     UIImage *randomImage = [UIImage randomImageWithSize:CGSizeMake(100, 100)];
     XCTAssert(randomImage, @"There must be an image");
-    XCTAssert(randomImage.size.height == 200 && randomImage.size.width == 200, @"The size must be 100x100");
+    XCTAssert(randomImage.size.height == 200 || randomImage.size.height == 100, @"The height must be either the requested size or its retina counterpart");
+    XCTAssert(randomImage.size.width == 200 || randomImage.size.width == 100, @"The width must be either the requested size or its retina counterpart");
 }
 
 @end
