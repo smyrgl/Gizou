@@ -26,7 +26,7 @@ namespace :appledoc do
   end
 end
 
-desc "Runs the Foundry specs"
+desc "Runs the Gizou specs"
 task :spec do
   Rake::Task['test:ios'].invoke
   Rake::Task['test:osx'].invoke if is_mavericks_or_above
