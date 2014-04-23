@@ -37,7 +37,6 @@
 		5260741E19072F2C00FA0EA7 /* GZConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 526073D11907246D00FA0EA7 /* GZConstants.m */; };
 		5260741F19072F2E00FA0EA7 /* GZDataManager+GZPrivateDataRequests.m in Sources */ = {isa = PBXBuildFile; fileRef = 526073D31907246D00FA0EA7 /* GZDataManager+GZPrivateDataRequests.m */; };
 		5260742019072F3000FA0EA7 /* GZUtilityFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5229CA971905EB31005F6482 /* GZUtilityFunctions.m */; };
-		5260742119072F3700FA0EA7 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 52013C0D1906E10000193836 /* data.json */; };
 		5260742219072F3F00FA0EA7 /* GZDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 524E718D1901C20E009D0D98 /* GZDataManager.m */; };
 		5260742319072F4000FA0EA7 /* GZNames.m in Sources */ = {isa = PBXBuildFile; fileRef = 52013BF21906D74F00193836 /* GZNames.m */; };
 		5260742419072F4300FA0EA7 /* GZLocations.m in Sources */ = {isa = PBXBuildFile; fileRef = 52013BF41906D74F00193836 /* GZLocations.m */; };
@@ -53,11 +52,12 @@
 		5260742E19072FFD00FA0EA7 /* NSString+GZStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = 52013BE21906CF2700193836 /* NSString+GZStrings.m */; };
 		5260742F19072FFF00FA0EA7 /* CLLocation+GZLocations.m in Sources */ = {isa = PBXBuildFile; fileRef = 526073C91907245B00FA0EA7 /* CLLocation+GZLocations.m */; };
 		526074301907300100FA0EA7 /* GZLocations+CoreLocationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 526073CB1907245B00FA0EA7 /* GZLocations+CoreLocationExtensions.m */; };
-		526074321907302500FA0EA7 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 526074311907302500FA0EA7 /* data.json */; };
 		52607435190730FC00FA0EA7 /* GZOSXFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 52607434190730FC00FA0EA7 /* GZOSXFunctions.m */; };
 		5260743A1907310400FA0EA7 /* GZIOSFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 526074371907310400FA0EA7 /* GZIOSFunctions.m */; };
 		5260743B1907310400FA0EA7 /* UIImage+GZImages.m in Sources */ = {isa = PBXBuildFile; fileRef = 526074391907310400FA0EA7 /* UIImage+GZImages.m */; };
 		5260743C1907317E00FA0EA7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 526073E019072C3300FA0EA7 /* Cocoa.framework */; };
+		528B9A3D1907548700E9C589 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 528B9A3C1907548700E9C589 /* data.json */; };
+		528B9A3E1907548700E9C589 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 528B9A3C1907548700E9C589 /* data.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,7 +76,6 @@
 		52013BFA1906D74F00193836 /* GZPhoneNumbers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GZPhoneNumbers.m; path = ../Classes/GZPhoneNumbers.m; sourceTree = "<group>"; };
 		52013C061906DF4300193836 /* GZNamesTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZNamesTests.m; sourceTree = "<group>"; };
 		52013C091906DF5600193836 /* GZSetupTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZSetupTests.m; sourceTree = "<group>"; };
-		52013C0D1906E10000193836 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		52013C1D1906E72C00193836 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
 		52013C1F1906EA5100193836 /* GZLocationsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZLocationsTests.m; sourceTree = "<group>"; };
 		52013C221906EA6100193836 /* GZInternetTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZInternetTests.m; sourceTree = "<group>"; };
@@ -110,13 +109,13 @@
 		526073FE19072E9B00FA0EA7 /* osxtests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "osxtests-Info.plist"; sourceTree = "<group>"; };
 		5260740019072E9B00FA0EA7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5260740419072E9B00FA0EA7 /* osxtests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "osxtests-Prefix.pch"; sourceTree = "<group>"; };
-		526074311907302500FA0EA7 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = data.json; path = ../Assets/data.json; sourceTree = "<group>"; };
 		52607433190730FC00FA0EA7 /* GZOSXFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZOSXFunctions.h; sourceTree = "<group>"; };
 		52607434190730FC00FA0EA7 /* GZOSXFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZOSXFunctions.m; sourceTree = "<group>"; };
 		526074361907310400FA0EA7 /* GZIOSFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZIOSFunctions.h; sourceTree = "<group>"; };
 		526074371907310400FA0EA7 /* GZIOSFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZIOSFunctions.m; sourceTree = "<group>"; };
 		526074381907310400FA0EA7 /* UIImage+GZImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GZImages.h"; sourceTree = "<group>"; };
 		526074391907310400FA0EA7 /* UIImage+GZImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GZImages.m"; sourceTree = "<group>"; };
+		528B9A3C1907548700E9C589 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,7 +159,7 @@
 		52013C0E1906E10000193836 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				52013C0D1906E10000193836 /* data.json */,
+				528B9A3C1907548700E9C589 /* data.json */,
 			);
 			name = Assets;
 			path = /Users/john/Code/Gizou/Classes/../Assets;
@@ -182,7 +181,6 @@
 		524E7141190105D3009D0D98 = {
 			isa = PBXGroup;
 			children = (
-				526074311907302500FA0EA7 /* data.json */,
 				52013C051906DF2900193836 /* Tests */,
 				526073EA19072E8700FA0EA7 /* iostests */,
 				526073FC19072E9B00FA0EA7 /* osxtests */,
@@ -381,7 +379,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				526073EF19072E8700FA0EA7 /* InfoPlist.strings in Resources */,
-				526074321907302500FA0EA7 /* data.json in Resources */,
+				528B9A3D1907548700E9C589 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,7 +388,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5260740119072E9B00FA0EA7 /* InfoPlist.strings in Resources */,
-				5260742119072F3700FA0EA7 /* data.json in Resources */,
+				528B9A3E1907548700E9C589 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -682,6 +680,7 @@
 				526073F519072E8700FA0EA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5260740519072E9B00FA0EA7 /* Build configuration list for PBXNativeTarget "osxtests" */ = {
 			isa = XCConfigurationList;
@@ -690,6 +689,7 @@
 				5260740719072E9B00FA0EA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
