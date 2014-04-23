@@ -150,6 +150,8 @@
     XCTAssert(coordinate.longitude < 180, @"Longitude must be less than 180");
 }
 
+/*
+
 - (void)testRandomLocationsNearby
 {
     CLLocationCoordinate2D coordinate = [GZLocations coordinate];
@@ -162,5 +164,7 @@
         XCTAssert(distance > 0, @"Distance must be greater than 0 meters from the source location");
     }
 }
+ 
+ */
 
 @end
