@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "Gizou"
-  s.version          = "0.1.1"
+  s.version          = "0.1.2"
   s.summary          = "A library for creating test data."
   s.homepage         = "https://github.com/smyrgl/Gizou"
   s.license          = 'MIT'
@@ -18,9 +18,4 @@ Pod::Spec.new do |s|
   s.osx.exclude_files = 'Classes/ios'
   s.private_header_files = 'Classes/Private/*.h'
   s.frameworks = 'Foundation'
-
-  s.subspec 'Location' do |ss|
-    ss.source_files = 'Classes/GZLocations+CoreLocationExtensions.{h,m}'
-    ss.frameworks = 'CoreLocation'
-  end
 end
