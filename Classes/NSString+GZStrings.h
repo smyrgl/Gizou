@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
+/**
+ *  Convenience categories on `NSString` for accessing the Gizou generators.  
+ */
+
 @interface NSString (GZStrings)
 
 ///-------------

@@ -26,7 +26,7 @@
 {
     self = [super init];
     if (self) {
-        NSString *path = [[NSBundle bundleForClass:[self class]] pathForResource:@"data" ofType:@"json"];
+        NSString *path = [[NSBundle bundleForClass:[self class]] pathForResource:@"gizou_data_bundle" ofType:@"json"];
         NSData *data = [NSData dataWithContentsOfFile:path];
         self.dataDictionary = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:nil];
         self.currentLanguage = @"en";

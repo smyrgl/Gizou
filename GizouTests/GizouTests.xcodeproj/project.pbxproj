@@ -56,8 +56,8 @@
 		5260743A1907310400FA0EA7 /* GZIOSFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 526074371907310400FA0EA7 /* GZIOSFunctions.m */; };
 		5260743B1907310400FA0EA7 /* UIImage+GZImages.m in Sources */ = {isa = PBXBuildFile; fileRef = 526074391907310400FA0EA7 /* UIImage+GZImages.m */; };
 		5260743C1907317E00FA0EA7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 526073E019072C3300FA0EA7 /* Cocoa.framework */; };
-		528B9A401907559000E9C589 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 528B9A3F1907559000E9C589 /* data.json */; };
-		528B9A411907559000E9C589 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 528B9A3F1907559000E9C589 /* data.json */; };
+		528B9A431907760B00E9C589 /* gizou_data_bundle.json in Resources */ = {isa = PBXBuildFile; fileRef = 528B9A421907760B00E9C589 /* gizou_data_bundle.json */; };
+		528B9A441907761500E9C589 /* gizou_data_bundle.json in Resources */ = {isa = PBXBuildFile; fileRef = 528B9A421907760B00E9C589 /* gizou_data_bundle.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -116,6 +116,7 @@
 		526074381907310400FA0EA7 /* UIImage+GZImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GZImages.h"; sourceTree = "<group>"; };
 		526074391907310400FA0EA7 /* UIImage+GZImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GZImages.m"; sourceTree = "<group>"; };
 		528B9A3F1907559000E9C589 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		528B9A421907760B00E9C589 /* gizou_data_bundle.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = gizou_data_bundle.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +182,7 @@
 		524E7141190105D3009D0D98 = {
 			isa = PBXGroup;
 			children = (
+				528B9A421907760B00E9C589 /* gizou_data_bundle.json */,
 				52013C051906DF2900193836 /* Tests */,
 				526073EA19072E8700FA0EA7 /* iostests */,
 				526073FC19072E9B00FA0EA7 /* osxtests */,
@@ -379,7 +381,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				526073EF19072E8700FA0EA7 /* InfoPlist.strings in Resources */,
-				528B9A401907559000E9C589 /* data.json in Resources */,
+				528B9A431907760B00E9C589 /* gizou_data_bundle.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,7 +390,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5260740119072E9B00FA0EA7 /* InfoPlist.strings in Resources */,
-				528B9A411907559000E9C589 /* data.json in Resources */,
+				528B9A441907761500E9C589 /* gizou_data_bundle.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

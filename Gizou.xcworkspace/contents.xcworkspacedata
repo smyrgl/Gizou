@@ -8,7 +8,7 @@
          location = "group:../Assets"
          name = "Assets">
          <FileRef
-            location = "group:data.json">
+            location = "group:gizou_data_bundle.json">
          </FileRef>
       </Group>
       <Group
