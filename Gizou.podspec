@@ -9,11 +9,11 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, '7.0'
   s.ios.deployment_target = '7.1'
-  # s.osx.deployment_target = '10.7'
+  s.osx.deployment_target = '10.9'
   s.requires_arc = true
 
   s.source_files = 'Classes'
-  s.resources = 'Assets/*.png'
+  s.resource_bundle = {'Gizou' => 'Assets/*.json'}
 
   s.ios.exclude_files = 'Classes/osx'
   s.osx.exclude_files = 'Classes/ios'
