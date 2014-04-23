@@ -12,12 +12,12 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = '10.9'
   s.requires_arc = true
 
-  s.source_files = 'Classes'
+  s.source_files = "Classes/**/*.{h,m}"
   s.resource_bundle = {'Gizou' => 'Assets/*.json'}
 
   s.ios.exclude_files = 'Classes/osx'
   s.osx.exclude_files = 'Classes/ios'
-  s.public_header_files = 'Classes/*.h'
+  s.private_header_files = 'Classes/Private/*.h'
   s.frameworks = 'Foundation'
 
   s.subspec 'Location' do |ss|
