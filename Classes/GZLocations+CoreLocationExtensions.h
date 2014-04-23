@@ -6,8 +6,9 @@
 //
 //
 
-#import "GZLocations.h"
 #import <CoreLocation/CoreLocation.h>
+
+@class GZLocations;
 
 @interface GZLocations (CoreLocationExtensions)
 

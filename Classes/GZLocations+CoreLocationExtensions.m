@@ -6,6 +6,7 @@
 //
 //
 
+#import "GZLocations.h"
 #import "GZLocations+CoreLocationExtensions.h"
 
 @implementation GZLocations (CoreLocationExtensions)
