@@ -30,7 +30,7 @@
         double u = drand48();
         double v = drand48();
         double w = radiusInDegrees * sqrt(u);
-        double t = 2 * M_PI * v;
+        double t = M_PI_2 * v;
         double x = w * cos(t);
         double y = w * sin(t);
         
