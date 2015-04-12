@@ -31,6 +31,8 @@
 		837182D31ADABE7700AD38A8 /* GZWordsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 837182C31ADABE7700AD38A8 /* GZWordsTests.m */; };
 		837182D61ADAD90000AD38A8 /* GZNumbersSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = 837182D51ADAD90000AD38A8 /* GZNumbersSpecs.m */; };
 		837182D71ADAD90000AD38A8 /* GZNumbersSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = 837182D51ADAD90000AD38A8 /* GZNumbersSpecs.m */; };
+		837182D91ADAE2BB00AD38A8 /* GZDatesSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 837182D81ADAE2BB00AD38A8 /* GZDatesSpec.m */; };
+		837182DA1ADAE2BB00AD38A8 /* GZDatesSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 837182D81ADAE2BB00AD38A8 /* GZDatesSpec.m */; };
 		C9307970D3FF7079DB4B5359 /* libPods-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 614677FF096AF54E74F14E96 /* libPods-ios.a */; };
 		F880501D924BB4FB68051379 /* libPods-osx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8092A3B0E76747ADAAAE8887 /* libPods-osx.a */; };
 /* End PBXBuildFile section */
@@ -66,6 +68,7 @@
 		837182C31ADABE7700AD38A8 /* GZWordsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZWordsTests.m; sourceTree = "<group>"; };
 		837182DB1ADAE51F00AD38A8 /* GZTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZTests.h; sourceTree = "<group>"; };
 		837182D51ADAD90000AD38A8 /* GZNumbersSpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZNumbersSpecs.m; sourceTree = "<group>"; };
+		837182D81ADAE2BB00AD38A8 /* GZDatesSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZDatesSpec.m; sourceTree = "<group>"; };
 		B0B97BC34D5D946F85423762 /* Pods-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios/Pods-ios.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -180,6 +183,7 @@
 				837182C21ADABE7700AD38A8 /* GZSetupTests.m */,
 				837182C31ADABE7700AD38A8 /* GZWordsTests.m */,
 				837182D51ADAD90000AD38A8 /* GZNumbersSpecs.m */,
+				837182D81ADAE2BB00AD38A8 /* GZDatesSpec.m */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -352,6 +356,7 @@
 				837182D01ADABE7700AD38A8 /* GZSetupTests.m in Sources */,
 				837182C61ADABE7700AD38A8 /* GZImagesTests.m in Sources */,
 				837182CA1ADABE7700AD38A8 /* GZLocationsTests.m in Sources */,
+				837182D91ADAE2BB00AD38A8 /* GZDatesSpec.m in Sources */,
 				837182CE1ADABE7700AD38A8 /* GZPhoneNumbersTests.m in Sources */,
 				837182D21ADABE7700AD38A8 /* GZWordsTests.m in Sources */,
 				837182C81ADABE7700AD38A8 /* GZInternetTests.m in Sources */,
@@ -373,6 +378,7 @@
 				837182C51ADABE7700AD38A8 /* GZCategoryTests.m in Sources */,
 				837182D71ADAD90000AD38A8 /* GZNumbersSpecs.m in Sources */,
 				837182CD1ADABE7700AD38A8 /* GZNamesTests.m in Sources */,
+				837182DA1ADAE2BB00AD38A8 /* GZDatesSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
