@@ -13,41 +13,35 @@
 		526073EF19072E8700FA0EA7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 526073ED19072E8700FA0EA7 /* InfoPlist.strings */; };
 		526073FB19072E9B00FA0EA7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 524E714F190105F9009D0D98 /* XCTest.framework */; };
 		5260740119072E9B00FA0EA7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 526073FF19072E9B00FA0EA7 /* InfoPlist.strings */; };
-		5260740819072EE200FA0EA7 /* GZCategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 526073C519071ADC00FA0EA7 /* GZCategoryTests.m */; };
-		5260740919072EE300FA0EA7 /* GZNamesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52013C061906DF4300193836 /* GZNamesTests.m */; };
-		5260740A19072EE500FA0EA7 /* GZSetupTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52013C091906DF5600193836 /* GZSetupTests.m */; };
-		5260740B19072EE800FA0EA7 /* GZLocationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52013C1F1906EA5100193836 /* GZLocationsTests.m */; };
-		5260740C19072EEB00FA0EA7 /* GZInternetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52013C221906EA6100193836 /* GZInternetTests.m */; };
-		5260740D19072EEF00FA0EA7 /* GZWordsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52013C251906EA6E00193836 /* GZWordsTests.m */; };
-		5260740E19072EF200FA0EA7 /* GZPhoneNumbersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52013C281906EA7B00193836 /* GZPhoneNumbersTests.m */; };
-		5260740F19072EF500FA0EA7 /* GZImagesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 526073C1190712F100FA0EA7 /* GZImagesTests.m */; };
-		5260741019072EF900FA0EA7 /* GZCategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 526073C519071ADC00FA0EA7 /* GZCategoryTests.m */; };
-		5260741119072EFB00FA0EA7 /* GZNamesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52013C061906DF4300193836 /* GZNamesTests.m */; };
-		5260741219072EFD00FA0EA7 /* GZSetupTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52013C091906DF5600193836 /* GZSetupTests.m */; };
-		5260741319072F0200FA0EA7 /* GZLocationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52013C1F1906EA5100193836 /* GZLocationsTests.m */; };
-		5260741419072F0400FA0EA7 /* GZInternetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52013C221906EA6100193836 /* GZInternetTests.m */; };
-		5260741519072F0700FA0EA7 /* GZWordsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52013C251906EA6E00193836 /* GZWordsTests.m */; };
-		5260741619072F0900FA0EA7 /* GZPhoneNumbersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52013C281906EA7B00193836 /* GZPhoneNumbersTests.m */; };
 		5260743C1907317E00FA0EA7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 526073E019072C3300FA0EA7 /* Cocoa.framework */; };
-		528B9A431907760B00E9C589 /* gizou_data_bundle.json in Resources */ = {isa = PBXBuildFile; fileRef = 528B9A421907760B00E9C589 /* gizou_data_bundle.json */; };
-		528B9A441907761500E9C589 /* gizou_data_bundle.json in Resources */ = {isa = PBXBuildFile; fileRef = 528B9A421907760B00E9C589 /* gizou_data_bundle.json */; };
+		837182C41ADABE7700AD38A8 /* GZCategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 837182BC1ADABE7700AD38A8 /* GZCategoryTests.m */; };
+		837182C51ADABE7700AD38A8 /* GZCategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 837182BC1ADABE7700AD38A8 /* GZCategoryTests.m */; };
+		837182C61ADABE7700AD38A8 /* GZImagesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 837182BD1ADABE7700AD38A8 /* GZImagesTests.m */; };
+		837182C81ADABE7700AD38A8 /* GZInternetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 837182BE1ADABE7700AD38A8 /* GZInternetTests.m */; };
+		837182C91ADABE7700AD38A8 /* GZInternetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 837182BE1ADABE7700AD38A8 /* GZInternetTests.m */; };
+		837182CA1ADABE7700AD38A8 /* GZLocationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 837182BF1ADABE7700AD38A8 /* GZLocationsTests.m */; };
+		837182CB1ADABE7700AD38A8 /* GZLocationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 837182BF1ADABE7700AD38A8 /* GZLocationsTests.m */; };
+		837182CC1ADABE7700AD38A8 /* GZNamesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 837182C01ADABE7700AD38A8 /* GZNamesTests.m */; };
+		837182CD1ADABE7700AD38A8 /* GZNamesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 837182C01ADABE7700AD38A8 /* GZNamesTests.m */; };
+		837182CE1ADABE7700AD38A8 /* GZPhoneNumbersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 837182C11ADABE7700AD38A8 /* GZPhoneNumbersTests.m */; };
+		837182CF1ADABE7700AD38A8 /* GZPhoneNumbersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 837182C11ADABE7700AD38A8 /* GZPhoneNumbersTests.m */; };
+		837182D01ADABE7700AD38A8 /* GZSetupTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 837182C21ADABE7700AD38A8 /* GZSetupTests.m */; };
+		837182D11ADABE7700AD38A8 /* GZSetupTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 837182C21ADABE7700AD38A8 /* GZSetupTests.m */; };
+		837182D21ADABE7700AD38A8 /* GZWordsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 837182C31ADABE7700AD38A8 /* GZWordsTests.m */; };
+		837182D31ADABE7700AD38A8 /* GZWordsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 837182C31ADABE7700AD38A8 /* GZWordsTests.m */; };
+		C9307970D3FF7079DB4B5359 /* libPods-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 614677FF096AF54E74F14E96 /* libPods-ios.a */; };
+		F880501D924BB4FB68051379 /* libPods-osx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8092A3B0E76747ADAAAE8887 /* libPods-osx.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08EA18D2D5FE3BD637243D19 /* Pods-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios/Pods-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		184E155C5C2E45E586D93F78 /* Pods-osx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-osx.debug.xcconfig"; path = "Pods/Target Support Files/Pods-osx/Pods-osx.debug.xcconfig"; sourceTree = "<group>"; };
 		52013B6F1906C50600193836 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
-		52013C061906DF4300193836 /* GZNamesTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZNamesTests.m; sourceTree = "<group>"; };
-		52013C091906DF5600193836 /* GZSetupTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZSetupTests.m; sourceTree = "<group>"; };
 		52013C1D1906E72C00193836 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
-		52013C1F1906EA5100193836 /* GZLocationsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZLocationsTests.m; sourceTree = "<group>"; };
-		52013C221906EA6100193836 /* GZInternetTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZInternetTests.m; sourceTree = "<group>"; };
-		52013C251906EA6E00193836 /* GZWordsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZWordsTests.m; sourceTree = "<group>"; };
-		52013C281906EA7B00193836 /* GZPhoneNumbersTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZPhoneNumbersTests.m; sourceTree = "<group>"; };
 		524E714F190105F9009D0D98 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		524E719A1901C232009D0D98 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		524E719C1901C238009D0D98 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		526073C1190712F100FA0EA7 /* GZImagesTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZImagesTests.m; sourceTree = "<group>"; };
 		526073C3190716BB00FA0EA7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		526073C519071ADC00FA0EA7 /* GZCategoryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZCategoryTests.m; sourceTree = "<group>"; };
 		526073E019072C3300FA0EA7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		526073E619072E8700FA0EA7 /* iostests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iostests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		526073EC19072E8700FA0EA7 /* iostests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iostests-Info.plist"; sourceTree = "<group>"; };
@@ -57,7 +51,18 @@
 		526073FE19072E9B00FA0EA7 /* osxtests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "osxtests-Info.plist"; sourceTree = "<group>"; };
 		5260740019072E9B00FA0EA7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5260740419072E9B00FA0EA7 /* osxtests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "osxtests-Prefix.pch"; sourceTree = "<group>"; };
-		528B9A421907760B00E9C589 /* gizou_data_bundle.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = gizou_data_bundle.json; sourceTree = "<group>"; };
+		614677FF096AF54E74F14E96 /* libPods-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F2290438247BDE4A2482D04 /* Pods-osx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-osx.release.xcconfig"; path = "Pods/Target Support Files/Pods-osx/Pods-osx.release.xcconfig"; sourceTree = "<group>"; };
+		8092A3B0E76747ADAAAE8887 /* libPods-osx.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-osx.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		837182BC1ADABE7700AD38A8 /* GZCategoryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZCategoryTests.m; sourceTree = "<group>"; };
+		837182BD1ADABE7700AD38A8 /* GZImagesTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZImagesTests.m; sourceTree = "<group>"; };
+		837182BE1ADABE7700AD38A8 /* GZInternetTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZInternetTests.m; sourceTree = "<group>"; };
+		837182BF1ADABE7700AD38A8 /* GZLocationsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZLocationsTests.m; sourceTree = "<group>"; };
+		837182C01ADABE7700AD38A8 /* GZNamesTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZNamesTests.m; sourceTree = "<group>"; };
+		837182C11ADABE7700AD38A8 /* GZPhoneNumbersTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZPhoneNumbersTests.m; sourceTree = "<group>"; };
+		837182C21ADABE7700AD38A8 /* GZSetupTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZSetupTests.m; sourceTree = "<group>"; };
+		837182C31ADABE7700AD38A8 /* GZWordsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZWordsTests.m; sourceTree = "<group>"; };
+		B0B97BC34D5D946F85423762 /* Pods-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios/Pods-ios.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +73,7 @@
 				526073E719072E8700FA0EA7 /* XCTest.framework in Frameworks */,
 				526073E919072E8700FA0EA7 /* UIKit.framework in Frameworks */,
 				526073E819072E8700FA0EA7 /* Foundation.framework in Frameworks */,
+				C9307970D3FF7079DB4B5359 /* libPods-ios.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,36 +83,22 @@
 			files = (
 				5260743C1907317E00FA0EA7 /* Cocoa.framework in Frameworks */,
 				526073FB19072E9B00FA0EA7 /* XCTest.framework in Frameworks */,
+				F880501D924BB4FB68051379 /* libPods-osx.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		52013C051906DF2900193836 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				526073C519071ADC00FA0EA7 /* GZCategoryTests.m */,
-				52013C061906DF4300193836 /* GZNamesTests.m */,
-				52013C091906DF5600193836 /* GZSetupTests.m */,
-				52013C1F1906EA5100193836 /* GZLocationsTests.m */,
-				52013C221906EA6100193836 /* GZInternetTests.m */,
-				52013C251906EA6E00193836 /* GZWordsTests.m */,
-				52013C281906EA7B00193836 /* GZPhoneNumbersTests.m */,
-				526073C1190712F100FA0EA7 /* GZImagesTests.m */,
-			);
-			name = Tests;
-			sourceTree = "<group>";
-		};
 		524E7141190105D3009D0D98 = {
 			isa = PBXGroup;
 			children = (
-				528B9A421907760B00E9C589 /* gizou_data_bundle.json */,
-				52013C051906DF2900193836 /* Tests */,
+				837182BB1ADABE7700AD38A8 /* Tests */,
 				526073EA19072E8700FA0EA7 /* iostests */,
 				526073FC19072E9B00FA0EA7 /* osxtests */,
 				524E714E190105F9009D0D98 /* Frameworks */,
 				524E714D190105F9009D0D98 /* Products */,
+				B0FDC2024BFD1F6E18D7DD44 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,6 +121,8 @@
 				524E719A1901C232009D0D98 /* UIKit.framework */,
 				524E714F190105F9009D0D98 /* XCTest.framework */,
 				52013B6F1906C50600193836 /* CoreFoundation.framework */,
+				614677FF096AF54E74F14E96 /* libPods-ios.a */,
+				8092A3B0E76747ADAAAE8887 /* libPods-osx.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -169,6 +163,32 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		837182BB1ADABE7700AD38A8 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				837182BC1ADABE7700AD38A8 /* GZCategoryTests.m */,
+				837182BD1ADABE7700AD38A8 /* GZImagesTests.m */,
+				837182BE1ADABE7700AD38A8 /* GZInternetTests.m */,
+				837182BF1ADABE7700AD38A8 /* GZLocationsTests.m */,
+				837182C01ADABE7700AD38A8 /* GZNamesTests.m */,
+				837182C11ADABE7700AD38A8 /* GZPhoneNumbersTests.m */,
+				837182C21ADABE7700AD38A8 /* GZSetupTests.m */,
+				837182C31ADABE7700AD38A8 /* GZWordsTests.m */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		B0FDC2024BFD1F6E18D7DD44 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08EA18D2D5FE3BD637243D19 /* Pods-ios.debug.xcconfig */,
+				B0B97BC34D5D946F85423762 /* Pods-ios.release.xcconfig */,
+				184E155C5C2E45E586D93F78 /* Pods-osx.debug.xcconfig */,
+				6F2290438247BDE4A2482D04 /* Pods-osx.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -176,9 +196,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 526073F319072E8700FA0EA7 /* Build configuration list for PBXNativeTarget "iostests" */;
 			buildPhases = (
+				128630C17487C223064D5927 /* Check Pods Manifest.lock */,
 				526073E219072E8700FA0EA7 /* Sources */,
 				526073E319072E8700FA0EA7 /* Frameworks */,
 				526073E419072E8700FA0EA7 /* Resources */,
+				7B00141D3E001C9BDDEBC56D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,9 +215,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5260740519072E9B00FA0EA7 /* Build configuration list for PBXNativeTarget "osxtests" */;
 			buildPhases = (
+				7B02229B3AF1FEA675FE82D5 /* Check Pods Manifest.lock */,
 				526073F619072E9B00FA0EA7 /* Sources */,
 				526073F719072E9B00FA0EA7 /* Frameworks */,
 				526073F819072E9B00FA0EA7 /* Resources */,
+				A6646F1178D8783460A1B685 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,7 +262,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				526073EF19072E8700FA0EA7 /* InfoPlist.strings in Resources */,
-				528B9A431907760B00E9C589 /* gizou_data_bundle.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,25 +270,87 @@
 			buildActionMask = 2147483647;
 			files = (
 				5260740119072E9B00FA0EA7 /* InfoPlist.strings in Resources */,
-				528B9A441907761500E9C589 /* gizou_data_bundle.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		128630C17487C223064D5927 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7B00141D3E001C9BDDEBC56D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios/Pods-ios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B02229B3AF1FEA675FE82D5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A6646F1178D8783460A1B685 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-osx/Pods-osx-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		526073E219072E8700FA0EA7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5260740819072EE200FA0EA7 /* GZCategoryTests.m in Sources */,
-				5260740919072EE300FA0EA7 /* GZNamesTests.m in Sources */,
-				5260740A19072EE500FA0EA7 /* GZSetupTests.m in Sources */,
-				5260740B19072EE800FA0EA7 /* GZLocationsTests.m in Sources */,
-				5260740C19072EEB00FA0EA7 /* GZInternetTests.m in Sources */,
-				5260740D19072EEF00FA0EA7 /* GZWordsTests.m in Sources */,
-				5260740E19072EF200FA0EA7 /* GZPhoneNumbersTests.m in Sources */,
-				5260740F19072EF500FA0EA7 /* GZImagesTests.m in Sources */,
+				837182D01ADABE7700AD38A8 /* GZSetupTests.m in Sources */,
+				837182C61ADABE7700AD38A8 /* GZImagesTests.m in Sources */,
+				837182CA1ADABE7700AD38A8 /* GZLocationsTests.m in Sources */,
+				837182CE1ADABE7700AD38A8 /* GZPhoneNumbersTests.m in Sources */,
+				837182D21ADABE7700AD38A8 /* GZWordsTests.m in Sources */,
+				837182C81ADABE7700AD38A8 /* GZInternetTests.m in Sources */,
+				837182C41ADABE7700AD38A8 /* GZCategoryTests.m in Sources */,
+				837182CC1ADABE7700AD38A8 /* GZNamesTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,13 +358,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5260741019072EF900FA0EA7 /* GZCategoryTests.m in Sources */,
-				5260741119072EFB00FA0EA7 /* GZNamesTests.m in Sources */,
-				5260741219072EFD00FA0EA7 /* GZSetupTests.m in Sources */,
-				5260741619072F0900FA0EA7 /* GZPhoneNumbersTests.m in Sources */,
-				5260741519072F0700FA0EA7 /* GZWordsTests.m in Sources */,
-				5260741419072F0400FA0EA7 /* GZInternetTests.m in Sources */,
-				5260741319072F0200FA0EA7 /* GZLocationsTests.m in Sources */,
+				837182D11ADABE7700AD38A8 /* GZSetupTests.m in Sources */,
+				837182CB1ADABE7700AD38A8 /* GZLocationsTests.m in Sources */,
+				837182CF1ADABE7700AD38A8 /* GZPhoneNumbersTests.m in Sources */,
+				837182D31ADABE7700AD38A8 /* GZWordsTests.m in Sources */,
+				837182C91ADABE7700AD38A8 /* GZInternetTests.m in Sources */,
+				837182C51ADABE7700AD38A8 /* GZCategoryTests.m in Sources */,
+				837182CD1ADABE7700AD38A8 /* GZNamesTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +406,7 @@
 		};
 		526073F419072E8700FA0EA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08EA18D2D5FE3BD637243D19 /* Pods-ios.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -367,6 +453,7 @@
 		};
 		526073F519072E8700FA0EA7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0B97BC34D5D946F85423762 /* Pods-ios.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -407,6 +494,7 @@
 		};
 		5260740619072E9B00FA0EA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 184E155C5C2E45E586D93F78 /* Pods-osx.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -454,6 +542,7 @@
 		};
 		5260740719072E9B00FA0EA7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F2290438247BDE4A2482D04 /* Pods-osx.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";

@@ -123,4 +123,7 @@
    <FileRef
       location = "group:GizouTests/GizouTests.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:GizouTests/Pods/Pods.xcodeproj">
+   </FileRef>
 </Workspace>

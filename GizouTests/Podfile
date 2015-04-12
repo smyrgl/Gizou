@@ -1,0 +1,21 @@
+source 'https://github.com/CocoaPods/Specs'
+
+xcodeproj 'GizouTests'
+workspace '../Gizou'
+inhibit_all_warnings!
+
+def import_pods
+  pod 'Gizou', :path => '../'
+end
+
+target :ios do
+  platform :ios, '7.0'
+  link_with 'iostests'
+  import_pods
+end
+
+target :osx do
+  platform :osx, '10.7'
+  link_with 'osxtests'
+  import_pods
+end
