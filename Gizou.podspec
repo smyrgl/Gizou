@@ -11,11 +11,11 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = '10.7'
   s.requires_arc = true
 
-  s.source_files = "Classes/**/*.{h,m}"
-  s.resources = "Assets/*.json"
-
-  s.ios.exclude_files = 'Classes/osx'
-  s.osx.exclude_files = 'Classes/ios'
-  s.private_header_files = 'Classes/Private/*.h'
+  s.source_files = 'Gizou/**/*.{h,m}'
+  s.resources = 'Gizou/Assets/*.json'
+  s.private_header_files = 'Gizou/Private/*.h'
+  s.ios.exclude_files = 'Gizou/osx'
+  s.osx.exclude_files = 'Gizou/ios'
+  
   s.frameworks = 'Foundation'
 end
