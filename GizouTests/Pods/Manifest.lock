@@ -1,0 +1,20 @@
+PODS:
+  - Expecta (0.3.2)
+  - Gizou (0.1.3)
+  - Specta (0.3.2)
+
+DEPENDENCIES:
+  - Expecta (~> 0.3.1)
+  - Gizou (from `../`)
+  - Specta (~> 0.3.2)
+
+EXTERNAL SOURCES:
+  Gizou:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Expecta: 8c507baf13211207b1e9d0a741480600e6b4ed15
+  Gizou: 8226b69884e1f3c8a2cac235e77463330fbd206a
+  Specta: e5ad38f1b2227a23bc63d0b5a3b41c5e628f2851
+
+COCOAPODS: 0.34.4
