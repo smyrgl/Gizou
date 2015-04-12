@@ -12,6 +12,7 @@
 #import "GZInternet.h"
 #import "GZPhoneNumbers.h"
 #import "GZNumbers.h"
+#import "GZDates.h"
 
 #ifdef _CORELOCATIONDEFINES_H
 #import "GZLocations+CoreLocationExtensions.h"
