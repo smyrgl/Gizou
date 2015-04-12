@@ -62,6 +62,7 @@
 		837182C11ADABE7700AD38A8 /* GZPhoneNumbersTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZPhoneNumbersTests.m; sourceTree = "<group>"; };
 		837182C21ADABE7700AD38A8 /* GZSetupTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZSetupTests.m; sourceTree = "<group>"; };
 		837182C31ADABE7700AD38A8 /* GZWordsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZWordsTests.m; sourceTree = "<group>"; };
+		837182DB1ADAE51F00AD38A8 /* GZTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZTests.h; sourceTree = "<group>"; };
 		B0B97BC34D5D946F85423762 /* Pods-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios/Pods-ios.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -166,6 +167,7 @@
 		837182BB1ADABE7700AD38A8 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				837182DB1ADAE51F00AD38A8 /* GZTests.h */,
 				837182BC1ADABE7700AD38A8 /* GZCategoryTests.m */,
 				837182BD1ADABE7700AD38A8 /* GZImagesTests.m */,
 				837182BE1ADABE7700AD38A8 /* GZInternetTests.m */,

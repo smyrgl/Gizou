@@ -12,13 +12,13 @@
          </FileRef>
       </Group>
       <FileRef
+         location = "group:Gizou.h">
+      </FileRef>
+      <FileRef
          location = "group:CLLocation+GZLocations.h">
       </FileRef>
       <FileRef
          location = "group:CLLocation+GZLocations.m">
-      </FileRef>
-      <FileRef
-         location = "group:Gizou.h">
       </FileRef>
       <FileRef
          location = "group:GizouOptional.h">
